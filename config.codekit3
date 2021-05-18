@@ -7,7 +7,7 @@
       "uuidString" : "301077FD-6587-4DAE-808A-231B715466F3"
     }
   ],
-  "creatorBuild" : "34018",
+  "creatorBuild" : "34127",
   "files" : {
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -20,6 +20,289 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/aboutus\/aboutus.jpg" : {
+      "ft" : 16384,
+      "iS" : 94526,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/aboutus\/aboutus.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffee101\/coffee101.jpg" : {
+      "ft" : 16384,
+      "iS" : 434312,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffee101\/coffee101.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffee101\/history.jpg" : {
+      "ft" : 16384,
+      "iS" : 226785,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffee101\/history.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffee101\/lifestyle.jpg" : {
+      "ft" : 16384,
+      "iS" : 151557,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffee101\/lifestyle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffee101\/preparation.jpg" : {
+      "ft" : 16384,
+      "iS" : 92617,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffee101\/preparation.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffee101\/profiles.jpg" : {
+      "ft" : 16384,
+      "iS" : 183819,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffee101\/profiles.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffee101\/recipes.jpg" : {
+      "ft" : 16384,
+      "iS" : 96049,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffee101\/recipes.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeclub\/3month.jpg" : {
+      "ft" : 16384,
+      "iS" : 79072,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeclub\/3month.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeclub\/6month.jpg" : {
+      "ft" : 16384,
+      "iS" : 89348,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeclub\/6month.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeclub\/12month.jpg" : {
+      "ft" : 16384,
+      "iS" : 194806,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeclub\/12month.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffees\/coffees.jpg" : {
+      "ft" : 16384,
+      "iS" : 123524,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffees\/coffees.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffees\/dark.jpg" : {
+      "ft" : 16384,
+      "iS" : 61418,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffees\/dark.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffees\/espresso.jpg" : {
+      "ft" : 16384,
+      "iS" : 47978,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffees\/espresso.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffees\/medium.jpg" : {
+      "ft" : 16384,
+      "iS" : 55057,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffees\/medium.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffees\/mocha.jpg" : {
+      "ft" : 16384,
+      "iS" : 83287,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffees\/mocha.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeware\/chalkboardmug.jpg" : {
+      "ft" : 16384,
+      "iS" : 34726,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeware\/chalkboardmug.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeware\/coffeeware.jpg" : {
+      "ft" : 16384,
+      "iS" : 73521,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeware\/coffeeware.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeware\/frenchpress.jpg" : {
+      "ft" : 16384,
+      "iS" : 72416,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeware\/frenchpress.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeware\/mokapot.jpg" : {
+      "ft" : 16384,
+      "iS" : 79745,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeware\/mokapot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeware\/tamping.jpg" : {
+      "ft" : 16384,
+      "iS" : 108810,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeware\/tamping.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffeeware\/travelmug.jpg" : {
+      "ft" : 16384,
+      "iS" : 38302,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffeeware\/travelmug.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footer\/blackyoutube.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/footer\/blackyoutube.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/footer\/facebook.svg" : {
       "ft" : 2097152,
@@ -51,12 +334,22 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero-2\/hero.jpg" : {
+    "\/deploy\/img\/footer\/youtube.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/footer\/youtube.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/header\/logo.jpg" : {
       "ft" : 16384,
-      "iS" : 96833,
+      "iS" : 13045,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-2\/hero.jpg",
+      "oAP" : "\/deploy\/img\/header\/logo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -64,12 +357,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/history\/hero.jpg" : {
+    "\/deploy\/img\/hero\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 15971,
+      "iS" : 1705283,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/history\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -77,12 +370,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/skills\/robot.jpg" : {
+    "\/deploy\/img\/trending\/coffeepot.jpg" : {
       "ft" : 16384,
-      "iS" : 122546,
+      "iS" : 78325,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/skills\/robot.jpg",
+      "oAP" : "\/deploy\/img\/trending\/coffeepot.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -90,12 +383,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/skynet\/gallery-1.jpg" : {
+    "\/deploy\/img\/trending\/dripcoffee.jpg" : {
       "ft" : 16384,
-      "iS" : 163011,
+      "iS" : 63003,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-1.jpg",
+      "oAP" : "\/deploy\/img\/trending\/dripcoffee.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -103,64 +396,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/skynet\/gallery-2.jpg" : {
+    "\/deploy\/img\/trending\/travelmug.jpg" : {
       "ft" : 16384,
-      "iS" : 100411,
+      "iS" : 38302,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/skynet\/gallery-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 70439,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/skynet\/gallery-4.jpg" : {
-      "ft" : 16384,
-      "iS" : 170027,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/skynet\/gallery-5.jpg" : {
-      "ft" : 16384,
-      "iS" : 47796,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/skynet\/gallery-6.jpg" : {
-      "ft" : 16384,
-      "iS" : 115782,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/skynet\/gallery-6.jpg",
+      "oAP" : "\/deploy\/img\/trending\/travelmug.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -187,20 +428,52 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/.structure-tags.sketch.icloud" : {
+    "\/design\/structure-tags.sketch" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/.structure-tags.sketch.icloud",
+      "oAP" : "\/design\/structure-tags.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/hero-2.kit" : {
+    "\/dev\/content\/aboutus.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
+      "oAP" : "\/dev\/content\/aboutus.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/coffee101.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/coffee101.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/coffeeclub.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/coffeeclub.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/coffees.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/coffees.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/coffeeware.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/coffeeware.html",
       "oF" : 0
     },
     "\/dev\/content\/hero.kit" : {
@@ -211,28 +484,12 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
-    "\/dev\/content\/history.kit" : {
+    "\/dev\/content\/trending.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/history.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/skills.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/skills.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/skynet.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/skynet.html",
+      "oAP" : "\/dev\/content\/trending.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -439,6 +696,25 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -449,7 +725,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
-    "displayValue" : "content complete",
+    "displayValue" : "Zucco_Final",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
@@ -2505,6 +2781,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -2539,6 +2818,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
