@@ -2,7 +2,6 @@
     Coffee 101
 ============= */
 #coffee101{
- @include xl{
      section{
         .grid{
             display: grid;
@@ -14,4 +13,3 @@
             }
         }
     }
-}

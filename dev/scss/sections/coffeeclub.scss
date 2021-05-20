@@ -3,6 +3,7 @@
 ============= */
 #coffeeclub{
     .grid {
+        justify-content:right;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 142.74px;
