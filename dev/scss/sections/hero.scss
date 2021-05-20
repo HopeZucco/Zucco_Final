@@ -9,16 +9,16 @@
                 grid-template-areas: "hero-image";
                 ul{
                     @include lg{
-                        grid-area: hero-image;
+                        grid-area: "hero-image";
                         display: grid;
                         grid-template-columns: 71% auto;
                     @include md{
-                        grid-area: hero-image;
+                        grid-area: "hero-image";
                         display: grid;
                         grid-template-columns: 53% auto;
                     }
                     @include sm{
-                        grid-area: hero-image;
+                        grid-area: "hero-image";
                         display: grid;
                         grid-template-columns:22 % auto;
                     }
