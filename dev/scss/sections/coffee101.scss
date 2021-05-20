@@ -1,3 +1,16 @@
 /* =============
     Coffee 101
 ============= */
+#coffee101{
+    ul{
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: "n1 n1 n1"
+            "n2-n3"
+            "n4 n5 n6";
+            grid-gap: 67px;
+        }
+    }
+}
