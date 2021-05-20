@@ -2,23 +2,16 @@
     Coffee 101
 ============= */
 #coffee101{
-
-    .grid{
+ @include xl{
+     section{
+        .grid{
             display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-areas: "n1";
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: "n1 n1 n1"
+            "n2-n3"
+            "n4 n5 n6";
             max-width: 885px ;
+            }
         }
-    .grid{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-areas: "n2 n3";
-            grid-gap: 57px;
-        }
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "n4 n5 n6";
-        grid-gap: 67px;
     }
 }
