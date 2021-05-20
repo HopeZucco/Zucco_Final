@@ -5,22 +5,24 @@
     img{
         width: 100%;
         section{
-            @include md{
+            @include xl{
                 display: grid;
-                grid-template-columns: 16px auto 16px;
                 grid-template-areas: "hero-image";
-                ul{
+            }
+                @include lg{
+                    grid-template-columns: 71% auto;
+                }
                     @include md{
-                        grid-area: hero-content;
+                        grid-area: hero-image;
                         display: grid;
-                        grid-template-columns: 40% auto;
+                        grid-template-columns: 53% auto;
                     }
+                @include sm{
+                    grid-template-columns: 22%;
+
+                }
     
-                    @include lg{
-                        grid-template-columns: 50% auto;
-                    }
+                    
                 }
             }
-        }
-    }
-}        
+        }     

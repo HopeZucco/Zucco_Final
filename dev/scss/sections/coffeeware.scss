@@ -5,8 +5,8 @@ coffeeware{
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: auto;
-        max-width: 1259px;
+        grid-gap: 67;
+        max-width: 1225px;
         grid-template-areas: "n1 n2";
         }
     .grid {
@@ -16,4 +16,5 @@ coffeeware{
         max-width: 1400px;
         grid-template-areas: "f1 f2 f3 f4";
         }
+        
 }
