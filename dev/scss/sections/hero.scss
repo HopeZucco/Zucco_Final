@@ -4,7 +4,6 @@
 #hero{
     img{
         width: 100%;
-        section{
             @include xl{
                 display: grid;
                 grid-template-areas: "hero-image";
@@ -18,11 +17,10 @@
                         grid-template-columns: 53% auto;
                     }
                 @include sm{
-                    grid-template-columns: 22%;
-
+                    grid-template-columns: 22% auto;
                 }
-    
-                    
-                }
+            }
+            p{
+                align-content: center;
             }
         }     
