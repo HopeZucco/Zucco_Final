@@ -34,12 +34,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/coffee101\/coffee101.jpg" : {
+    "\/deploy\/img\/coffee101\/coffee101hero.jpg" : {
       "ft" : 16384,
       "iS" : 434312,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/coffee101\/coffee101.jpg",
+      "oAP" : "\/deploy\/img\/coffee101\/coffee101hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -714,6 +714,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/sections\/coffees.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/coffees-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/sections\/coffees.scss" : {
       "aP" : 0,
