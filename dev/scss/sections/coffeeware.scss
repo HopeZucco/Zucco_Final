@@ -1,7 +1,7 @@
 /* =============
     Coffeeware
 ============= */
-coffeeware{
+#coffeeware{
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -16,5 +16,5 @@ coffeeware{
         max-width: 1400px;
         grid-template-areas: "f1 f2 f3 f4";
         }
-        
+
 }
