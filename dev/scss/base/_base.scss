@@ -1,15 +1,16 @@
 /* =============
     Base
 ============= */
-ul{
-    margin: 0;
-    padding: 0;
+#base{
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
     li{
-        list-style: none;
+        list-style:none;
     }
-}
 
 
 .hidden{
     display: none;
+    }
 }
