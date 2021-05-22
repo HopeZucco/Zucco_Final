@@ -5,10 +5,10 @@
      section{
         .grid{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-areas: "n1 n1 n1"
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "n1 n1"
             "n2-n3"
-            "n4 n5 n6";
+            "n4 n5";
             max-width: 885px ;
             }
         }
