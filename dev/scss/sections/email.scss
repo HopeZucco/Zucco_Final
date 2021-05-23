@@ -1,0 +1,8 @@
+#email{
+    #footer{
+        .grid {
+           display: grid;
+           grid-template-areas: ". email .";
+           }
+        }
+}
