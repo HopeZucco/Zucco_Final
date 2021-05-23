@@ -49,7 +49,7 @@
     },
     "\/deploy\/img\/coffee101\/history.jpg" : {
       "ft" : 16384,
-      "iS" : 226785,
+      "iS" : 99490,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffee101\/history.jpg",
@@ -62,7 +62,7 @@
     },
     "\/deploy\/img\/coffee101\/lifestyle.jpg" : {
       "ft" : 16384,
-      "iS" : 151557,
+      "iS" : 43567,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffee101\/lifestyle.jpg",
@@ -75,7 +75,7 @@
     },
     "\/deploy\/img\/coffee101\/preparation.jpg" : {
       "ft" : 16384,
-      "iS" : 92617,
+      "iS" : 45337,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffee101\/preparation.jpg",
@@ -88,7 +88,7 @@
     },
     "\/deploy\/img\/coffee101\/profiles.jpg" : {
       "ft" : 16384,
-      "iS" : 183819,
+      "iS" : 68110,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffee101\/profiles.jpg",
@@ -151,12 +151,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/coffees\/coffees.jpg" : {
+    "\/deploy\/img\/coffees\/blonde.jpg" : {
       "ft" : 16384,
-      "iS" : 123524,
+      "iS" : 54255,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/coffees\/coffees.jpg",
+      "oAP" : "\/deploy\/img\/coffees\/blonde.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffees\/coffeeshero.jpg" : {
+      "ft" : 16384,
+      "iS" : 99755,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffees\/coffeeshero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -166,7 +179,7 @@
     },
     "\/deploy\/img\/coffees\/dark.jpg" : {
       "ft" : 16384,
-      "iS" : 61418,
+      "iS" : 34473,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffees\/dark.jpg",
@@ -179,7 +192,7 @@
     },
     "\/deploy\/img\/coffees\/espresso.jpg" : {
       "ft" : 16384,
-      "iS" : 47978,
+      "iS" : 20483,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffees\/espresso.jpg",
@@ -192,7 +205,7 @@
     },
     "\/deploy\/img\/coffees\/medium.jpg" : {
       "ft" : 16384,
-      "iS" : 55057,
+      "iS" : 43619,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffees\/medium.jpg",
@@ -205,7 +218,7 @@
     },
     "\/deploy\/img\/coffees\/mocha.jpg" : {
       "ft" : 16384,
-      "iS" : 83287,
+      "iS" : 32919,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffees\/mocha.jpg",
@@ -229,12 +242,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/coffeeware\/coffeeware.jpg" : {
+    "\/deploy\/img\/coffeeware\/coffeewarehero.jpg" : {
       "ft" : 16384,
-      "iS" : 73521,
+      "iS" : 50597,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/coffeeware\/coffeeware.jpg",
+      "oAP" : "\/deploy\/img\/coffeeware\/coffeewarehero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -268,25 +281,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/coffeeware\/tamping.jpg" : {
+    "\/deploy\/img\/coffeeware\/tampingset.jpg" : {
       "ft" : 16384,
-      "iS" : 108810,
+      "iS" : 38545,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/coffeeware\/tamping.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/coffeeware\/travelmug.jpg" : {
-      "ft" : 16384,
-      "iS" : 38302,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/coffeeware\/travelmug.jpg",
+      "oAP" : "\/deploy\/img\/coffeeware\/tampingset.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -307,12 +307,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero.jpg" : {
+    "\/deploy\/img\/hero\/herospot.jpg" : {
       "ft" : 16384,
-      "iS" : 1705283,
+      "iS" : 177122,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero\/herospot.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -335,7 +335,7 @@
     },
     "\/deploy\/img\/trending\/dripcoffee.jpg" : {
       "ft" : 16384,
-      "iS" : 63003,
+      "iS" : 25214,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/trending\/dripcoffee.jpg",

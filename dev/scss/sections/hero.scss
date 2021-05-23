@@ -6,19 +6,19 @@
         width: 100%;   
             @include xl{
                 display: grid;
-                grid-template-areas: "hero-image";
+                grid-template-areas: "herospot";
                 ul{
                     @include lg{
-                        grid-area: "hero-image";
+                        grid-area: "herospot";
                         display: grid;
                         grid-template-columns: 71% auto;
                     @include md{
-                        grid-area: "hero-image";
+                        grid-area: "herospot";
                         display: grid;
                         grid-template-columns: 53% auto;
                     }
                     @include sm{
-                        grid-area: "hero-image";
+                        grid-area: "herospot";
                         display: grid;
                         grid-template-columns:22 % auto;
                     }
