@@ -3,27 +3,25 @@
 ============= */
 #hero{
     img{
-        width: 100%;   
-            @include xl{
-                display: grid;
-                grid-template-areas: "herospot";
-                ul{
-                    @include lg{
-                        grid-area: "herospot";
-                        display: grid;
-                        grid-template-columns: 71% auto;
-                    @include md{
-                        grid-area: "herospot";
-                        display: grid;
-                        grid-template-columns: 50% auto;
-                    }
-                    @include sm{
-                        grid-area: "herospot";
-                        display: grid;
-                        grid-template-columns: 40% auto;
-                    }
+        width: 100%;
+    }
+    section{
+        @include md{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". hero .";
+            ul{
+                @include md{
+                    grid-area: heroimage;
+                    display: grid;
+                    grid-template-columns: 40% auto;
                 }
+
+                @include lg{
+                    grid-template-columns: 50% auto;
+                }
+
             }
-         }
+        }
     }
 }

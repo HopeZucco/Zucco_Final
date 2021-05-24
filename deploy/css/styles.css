@@ -482,7 +482,7 @@ footer > div {
   #hero section {
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero-content .";
+    grid-template-areas: ". hero .";
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
