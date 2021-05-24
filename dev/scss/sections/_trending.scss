@@ -1,13 +1,62 @@
 /* =============
     Trending
 ============= */
-#trending .grid {
-  justify-content: center;
-  display: grid;
-  padding-left: 223.5px;
-  padding-right: 223.5px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 93px;
-  max-width: 269px;
-  grid-template-areas: "n1 n2 n3";
+#trending{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 93px;
+    max-width: 1086px;
+    grid-template-areas: "n1 n2 n3";
+  
+  @include md{
+      display: grid;
+      grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". trending .";
+  }
+
+  @include lg{
+      grid-template-columns: auto 1024px auto;
+  }
+ 
+  >div{
+
+      @include md{
+          grid-area: trending;
+      }
+
+      h1{
+          color: $kobicha;
+      }
+
+      ul{
+
+          @include md{
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-areas: "n1 n2 n3";
+              gap: 16px;
+          }
+
+          @include lg{
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-areas: "n1 n2 n3";
+          }
+  
+          li{
+  
+              img{
+                  width: 100%;
+              }
+  
+              section{
+                  display: grid;
+                  grid-template-columns: 16px auto 16px;
+                  grid-template-areas: ". trending .";
+                  >div{
+                      grid-area: trending;
+                  }
+              }
+          }
+      }
+  }
 }

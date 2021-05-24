@@ -75,7 +75,7 @@
     },
     "\/deploy\/img\/coffee101\/preparation.jpg" : {
       "ft" : 16384,
-      "iS" : 36332,
+      "iS" : 61787,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffee101\/preparation.jpg",
@@ -101,7 +101,7 @@
     },
     "\/deploy\/img\/coffee101\/recipes.jpg" : {
       "ft" : 16384,
-      "iS" : 43919,
+      "iS" : 60263,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/coffee101\/recipes.jpg",
@@ -313,19 +313,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero\/herospot.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/hero\/recipes.jpg" : {
-      "ft" : 16384,
-      "iS" : 43919,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/recipes.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
