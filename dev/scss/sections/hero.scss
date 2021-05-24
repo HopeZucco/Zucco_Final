@@ -15,12 +15,12 @@
                     @include md{
                         grid-area: "herospot";
                         display: grid;
-                        grid-template-columns: 53% auto;
+                        grid-template-columns: 50% auto;
                     }
                     @include sm{
                         grid-area: "herospot";
                         display: grid;
-                        grid-template-columns: 22% auto;
+                        grid-template-columns: 40% auto;
                     }
                 }
             }
