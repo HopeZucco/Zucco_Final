@@ -3,11 +3,14 @@
 ============= */
 #coffeeclub{
     .grid {
-        justify-content:right;
+        justify-content: center;
         display: grid;
+        padding-left: 223.5px;
+        padding-right: 223.5px;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 142.74px;
-        max-width: 1282.73px;
+        grid-gap: 93px;
+        max-width: 269px;
         grid-template-areas: "n1 n2 n3";
-    }
+      }
+      
 }

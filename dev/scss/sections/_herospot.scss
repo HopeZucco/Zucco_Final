@@ -1,0 +1,25 @@
+/* =============
+    Hero
+============= */
+#hero img {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    #hero section {
+      display: grid;
+      grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". hero .";
+    }
+  }
+  @media (min-width: 768px) and (min-width: 768px) {
+    #hero section ul {
+      grid-area: hero-content;
+      display: grid;
+      grid-template-columns: 40% auto;
+    }
+  }
+  @media (min-width: 768px) and (min-width: 1024px) {
+    #hero section ul {
+      grid-template-columns: 50% auto;
+    }
+  }
