@@ -1,13 +1,71 @@
-/* =============
+    /* =============
     Footer
 ============= */
-#footer{
-    background-color: palesilverdark;
-    .grid {
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       grid-gap: 61px;
-       max-width: 804px;
-       grid-template-areas: "n1 n1" "n2 n2";
-       }
+footer{
+    background-color: $palesilverdark;
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". footer .";
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
     }
+    >div{
+        grid-area: footer;
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "n1 n1"
+            "n2 n2";
+            gap: 16px;
+        }
+
+        @include lg{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "n1 n2";
+        }
+
+        #n1{
+            @include md{
+                grid-area: n1;
+            }
+            h1{
+                color: $timberwolf;
+            }
+
+           section{
+               h2{
+                color: $timberwolf;
+               }
+               address{
+                color: $timberwolf;
+               }
+                } 
+               
+           }
+
+           section{
+               h2{
+                color: $timberwolf;
+               }
+           }
+           section{
+            h2{
+             color: $timberwolf;
+            }
+        }
+
+        #n2{
+            @include md{
+                grid-area: f2;
+            }
+            h1{
+                color: $timberwolf;
+            }
+            input{
+                color: $night-dark;
+            }
+        }
+    }
+}
