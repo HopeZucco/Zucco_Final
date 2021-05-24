@@ -546,11 +546,50 @@ footer > div #n2 input {
 /* =============
     Coffee 101
 ============= */
-#coffee101 .grid {
+@media (min-width: 768px) {
+  #coffee101 {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". coffee101 .";
+  }
+}
+@media (min-width: 1024px) {
+  #coffee101 {
+    grid-template-columns: auto 1024px auto;
+  }
+}
+@media (min-width: 768px) {
+  #coffee101 > div {
+    grid-area: coffee101;
+  }
+}
+#coffee101 > div h1 {
+  color: #6F3F29;
+}
+@media (min-width: 768px) {
+  #coffee101 > div ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: ". n2 n2 ." ". n1 n1 ." "n2 n2 n3 n3" "n4 n4 n5 n5";
+    gap: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #coffee101 > div ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" "n5 n5 n6 n6";
+  }
+}
+#coffee101 > div ul li img {
+  width: 100%;
+}
+#coffee101 > div ul li section {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: " . n1 n1 ." "n2 n2 n3 n3" "n4 n4 n5 n5";
-  max-width: 885px;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". coffee101 .";
+}
+#coffee101 > div ul li section > div {
+  grid-area: coffee101;
 }
 
 /* =============
