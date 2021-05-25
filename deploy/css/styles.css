@@ -551,6 +551,9 @@ footer > div #n2 input {
 /* =============
     Trending
 ============= */
+#trending h1 {
+  color: #6F3F29;
+}
 #trending .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -558,6 +561,24 @@ footer > div #n2 input {
   max-width: 1086px;
   grid-template-areas: "n1 n2 n3";
   background-color: #ECE7E5;
+}
+#trending .grid n1 {
+  align-content: center;
+}
+#trending .grid n1 caption {
+  color: #6F3F29;
+}
+#trending .grid n2 {
+  align-content: center;
+}
+#trending .grid n2 caption {
+  color: #6F3F29;
+}
+#trending .grid n3 {
+  align-content: center;
+}
+#trending .grid n3 caption {
+  color: #6F3F29;
 }
 @media (min-width: 768px) {
   #trending .grid {
@@ -736,34 +757,55 @@ footer > div #n2 input {
 /* =============
     Coffee Club
 ============= */
-#coffeeclub {
+#coffeeclub h1 {
+  color: #6F3F29;
+}
+#coffeeclub p {
+  color: #6F3F29;
+}
+#coffeeclub .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 93px;
   grid-template-areas: "n1 n2 n3";
 }
+#coffeeclub .grid n1 {
+  align-content: center;
+}
+#coffeeclub .grid n1 caption {
+  color: #6F3F29;
+}
+#coffeeclub .grid n2 caption {
+  color: #6F3F29;
+}
+#coffeeclub .grid n3 {
+  align-content: center;
+}
+#coffeeclub .grid n3 caption {
+  color: #6F3F29;
+}
 @media (min-width: 768px) {
-  #coffeeclub {
+  #coffeeclub .grid {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". coffeeclub .";
   }
 }
 @media (min-width: 1024px) {
-  #coffeeclub {
+  #coffeeclub .grid {
     grid-template-columns: auto 1024px auto;
   }
 }
 @media (min-width: 768px) {
-  #coffeeclub > div {
+  #coffeeclub .grid > div {
     grid-area: coffeeclub;
   }
 }
-#coffeeclub > div h1 {
+#coffeeclub .grid > div h1 {
   color: #6F3F29;
 }
 @media (min-width: 768px) {
-  #coffeeclub > div ul {
+  #coffeeclub .grid > div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
@@ -771,26 +813,29 @@ footer > div #n2 input {
   }
 }
 @media (min-width: 1024px) {
-  #coffeeclub > div ul {
+  #coffeeclub .grid > div ul {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
   }
 }
-#coffeeclub > div ul li img {
+#coffeeclub .grid > div ul li img {
   width: 100%;
 }
-#coffeeclub > div ul li section {
+#coffeeclub .grid > div ul li section {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". coffeeclub .";
 }
-#coffeeclub > div ul li section > div {
+#coffeeclub .grid > div ul li section > div {
   grid-area: coffeeclub;
 }
 
 /* =============
     About Us
 ============= */
+#aboutus h1 {
+  color: #6F3F29;
+}
 #aboutus .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

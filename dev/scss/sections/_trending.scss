@@ -1,13 +1,38 @@
 /* =============
     Trending
 ============= */
-#trending .grid{
+#trending{
+    h1{
+        color: $kobicha;
+    }
+.grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 93px;
     max-width: 1086px;
     grid-template-areas: "n1 n2 n3";
     background-color: $alabaster;
+
+    n1{
+        align-content: center;
+        caption{
+            color: $kobicha;
+        }
+    }
+
+    n2{
+        align-content: center;
+        caption{           
+            color: $kobicha;
+        }
+    }
+
+    n3{
+        align-content: center;
+        caption{            
+            color: $kobicha;
+        }
+    }
   
   @include md{
       display: grid;
@@ -56,8 +81,9 @@
                   >div{
                       grid-area: trending;
                   }
-              }
-          }
-      }
-  }
+                }
+            }
+        }
+    }
+}
 }

@@ -2,10 +2,37 @@
     Coffee Club
 ============= */
 #coffeeclub{
+    h1{
+        color: $kobicha;  
+    }
+    p{
+        color: $kobicha; 
+    }
+    .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 93px;
     grid-template-areas: "n1 n2 n3";
+
+    n1{
+        align-content: center;
+        caption{
+            color: $kobicha;
+        }
+    }
+
+    n2{
+        caption{           
+            color: $kobicha;
+        }
+    }
+
+    n3{
+        align-content: center;
+        caption{            
+            color: $kobicha;
+        }
+    }
   
   @include md{
       display: grid;
@@ -42,7 +69,7 @@
           }
   
           li{
-  
+
               img{
                   width: 100%;
               }
@@ -56,6 +83,7 @@
                   }
               }
           }
-      }
-  }
+        }
+    }
+}
 }

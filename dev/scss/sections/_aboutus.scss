@@ -2,11 +2,14 @@
     About Us
 ============= */
 #aboutus{
-    .grid {
+    h1{
+        color: $kobicha;
+    }
+    .grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 73px;
         max-width: 1259px;
         grid-template-areas: "n1 n2 n3";
-        }  
+    }  
 }
