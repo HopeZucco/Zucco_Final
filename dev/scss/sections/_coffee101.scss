@@ -17,6 +17,29 @@
     @include lg{
         grid-template-columns: auto 1024px auto;
     }
+         n3{
+            h2{
+                color: $camel;
+            }
+        }
+
+        n4{
+            h2{
+                color: $camel;
+             }  
+        }
+
+        n5{
+            h2{
+                color: $camel;
+            }
+        }
+
+        n6{
+            h2{
+                color: $camel;
+             }
+        }
    
     >div{
 
@@ -31,30 +54,6 @@
             p{
              color: $kobicha;
             }
-        }
-
-        n3{
-                h2{
-                    color: $camel;
-                }
-        }
-
-        n4{
-                h2{
-                    color: $camel;
-                }  
-        }
-
-        n5{
-                h2{
-                    color: $camel;
-                }
-        }
-
-        n6{
-                h2{
-                    color: $camel;
-                }
         }
 
         ul{
