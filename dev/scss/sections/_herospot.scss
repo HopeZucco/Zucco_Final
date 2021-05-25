@@ -1,7 +1,8 @@
 /* =============
     Hero
 ============= */
-#hero img {
+#hero {
+  img {
     width: 100%;
   }
   @media (min-width: 768px) {
@@ -23,3 +24,9 @@
       grid-template-columns: 50% auto;
     }
   }
+  a{
+    p{
+      color: $kobicha;
+    }
+  }
+}

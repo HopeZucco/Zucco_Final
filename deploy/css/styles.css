@@ -395,10 +395,10 @@ textarea {
     Header
 ============= */
 #header {
-  background-color: #AB9D98;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
+  background-color: #AB9D98;
 }
 #header > div {
   grid-area: header;
@@ -473,35 +473,47 @@ footer > div #n2 input {
 #hero img {
   width: 100%;
 }
-
 @media (min-width: 768px) {
-  #hero section {
+  #hero #hero section {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". hero .";
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
-  #hero section ul {
+  #hero #hero section ul {
     grid-area: hero-content;
     display: grid;
     grid-template-columns: 40% auto;
   }
 }
 @media (min-width: 768px) and (min-width: 1024px) {
-  #hero section ul {
+  #hero #hero section ul {
     grid-template-columns: 50% auto;
   }
 }
+#hero a p {
+  color: #6F3F29;
+}
+
 /* =============
     Coffees
 ============= */
+#coffee h1 {
+  color: #6F3F29;
+}
 #coffee .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 76px;
   max-width: 1259px;
   grid-template-areas: "n1 n2 n3";
+}
+#coffee .grid n2 p {
+  color: #6F3F29;
+}
+#coffee .grid n3 p {
+  color: #6F3F29;
 }
 #coffee .grid {
   display: grid;
@@ -511,39 +523,64 @@ footer > div #n2 input {
   grid-template-areas: "c1 c2 c3 c4";
   background-color: #ECE7E5;
 }
+#coffee .grid c1 {
+  align-content: center;
+}
+#coffee .grid c1 caption {
+  color: #6F3F29;
+}
+#coffee .grid c2 {
+  align-content: center;
+}
+#coffee .grid c2 caption {
+  color: #6F3F29;
+}
+#coffee .grid c3 {
+  align-content: center;
+}
+#coffee .grid c3 caption {
+  color: #6F3F29;
+}
+#coffee .grid c4 {
+  align-content: center;
+}
+#coffee .grid c4 caption {
+  color: #6F3F29;
+}
 
 /* =============
     Trending
 ============= */
-#trending {
+#trending .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 93px;
   max-width: 1086px;
   grid-template-areas: "n1 n2 n3";
+  background-color: #ECE7E5;
 }
 @media (min-width: 768px) {
-  #trending {
+  #trending .grid {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". trending .";
   }
 }
 @media (min-width: 1024px) {
-  #trending {
+  #trending .grid {
     grid-template-columns: auto 1024px auto;
   }
 }
 @media (min-width: 768px) {
-  #trending > div {
+  #trending .grid > div {
     grid-area: trending;
   }
 }
-#trending > div h1 {
+#trending .grid > div h1 {
   color: #6F3F29;
 }
 @media (min-width: 768px) {
-  #trending > div ul {
+  #trending .grid > div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
@@ -551,32 +588,38 @@ footer > div #n2 input {
   }
 }
 @media (min-width: 1024px) {
-  #trending > div ul {
+  #trending .grid > div ul {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
   }
 }
-#trending > div ul li img {
+#trending .grid > div ul li img {
   width: 100%;
 }
-#trending > div ul li section {
+#trending .grid > div ul li section {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". trending .";
 }
-#trending > div ul li section > div {
+#trending .grid > div ul li section > div {
   grid-area: trending;
 }
 
 /* =============
     Coffeeware
 ============= */
+#coffeeware h1 {
+  color: #6F3F29;
+}
 #coffeeware .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 67;
   max-width: 1225px;
   grid-template-areas: "n1 n2";
+}
+#coffeeware .grid n1 p {
+  color: #6F3F29;
 }
 #coffeeware .grid {
   display: grid;
@@ -586,10 +629,37 @@ footer > div #n2 input {
   grid-template-areas: "f1 f2 f3 f4";
   background-color: #ECE7E5;
 }
+#coffeeware .grid f1 {
+  align-content: center;
+}
+#coffeeware .grid f1 caption {
+  color: #6F3F29;
+}
+#coffeeware .grid f2 {
+  align-content: center;
+}
+#coffeeware .grid f2 caption {
+  color: #6F3F29;
+}
+#coffeeware .grid f3 {
+  align-content: center;
+}
+#coffeeware .grid f3 caption {
+  color: #6F3F29;
+}
+#coffeeware .grid f4 {
+  align-content: center;
+}
+#coffeeware .grid f4 caption {
+  color: #6F3F29;
+}
 
 /* =============
     Coffee 101
 ============= */
+#coffee101 h1 {
+  color: #6F3F29;
+}
 @media (min-width: 768px) {
   #coffee101 {
     display: grid;
@@ -634,6 +704,33 @@ footer > div #n2 input {
 }
 #coffee101 > div ul li section > div {
   grid-area: coffee101;
+}
+#coffee101 > div n2 p {
+  color: #6F3F29;
+}
+#coffee101 > div n3 {
+  align-content: center;
+}
+#coffee101 > div n3 caption h2 {
+  color: #BFA16D;
+}
+#coffee101 > div n4 {
+  align-content: center;
+}
+#coffee101 > div n4 caption h2 {
+  color: #BFA16D;
+}
+#coffee101 > div n5 {
+  align-content: center;
+}
+#coffee101 > div n5 caption h2 {
+  color: #BFA16D;
+}
+#coffee101 > div n6 {
+  align-content: center;
+}
+#coffee101 > div n6 caption h2 {
+  color: #BFA16D;
 }
 
 /* =============

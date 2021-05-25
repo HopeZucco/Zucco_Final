@@ -1,12 +1,13 @@
 /* =============
     Trending
 ============= */
-#trending{
+#trending .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 93px;
     max-width: 1086px;
     grid-template-areas: "n1 n2 n3";
+    background-color: $alabaster;
   
   @include md{
       display: grid;
