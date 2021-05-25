@@ -5,48 +5,30 @@
     h1{
         color: $kobicha;
     }
-    .grid{
+     .grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 67;
         max-width: 1225px;
         grid-template-areas: "n1 n2";
-    }
-     n1{
+        }
+     p{
+        text-align: justify;
+        text-justify: inter-word;
         color: $kobicha;
         }
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 76px;
-        max-width: 1400px;
-        grid-template-areas: "f1 f2 f3 f4";
-        background-color: $alabaster;
+        .grid{
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-gap: 76px;
+         max-width: 1400px;
+         grid-template-areas: "f1 f2 f3 f4";
+         background-color: $alabaster;
+         }
+        p{
+         text-align: center;
+         text-align: justify;
+         color: $kobicha;
+        }
     }
-    f1{
-            align-content: center;
-            caption{
-             color: $kobicha;
-            }
-        }
-    
-        f2{
-            align-content: center;
-            caption{
-             color: $kobicha;
-            }
-        }
-        f3{
-            align-content: center;
-            caption{
-             color: $kobicha;
-            }
-        }
-    
-        f4{
-            align-content: center;
-            caption{
-             color: $kobicha;
-            }
-        }
- }
+

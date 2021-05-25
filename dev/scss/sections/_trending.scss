@@ -13,25 +13,9 @@
     grid-template-areas: "n1 n2 n3";
     background-color: $alabaster;
 
-    n1{
-        align-content: center;
-        caption{
-            color: $kobicha;
-        }
-    }
-
-    n2{
-        align-content: center;
-        caption{           
-            color: $kobicha;
-        }
-    }
-
-    n3{
-        align-content: center;
-        caption{            
-            color: $kobicha;
-        }
+    p{
+        text-align: center;
+        color: $kobicha;
     }
   
   @include md{

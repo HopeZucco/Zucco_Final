@@ -515,10 +515,9 @@ footer > div #n2 input {
   max-width: 1259px;
   grid-template-areas: "n1 n2 n3";
 }
-#coffee .grid n2 p {
-  color: #6F3F29;
-}
-#coffee .grid n3 p {
+#coffee p {
+  text-align: justify;
+  text-justify: inter-word;
   color: #6F3F29;
 }
 #coffee .grid {
@@ -529,28 +528,9 @@ footer > div #n2 input {
   grid-template-areas: "c1 c2 c3 c4";
   background-color: #ECE7E5;
 }
-#coffee .grid c1 {
-  align-content: center;
-}
-#coffee .grid c1 caption {
-  color: #6F3F29;
-}
-#coffee .grid c2 {
-  align-content: center;
-}
-#coffee .grid c2 caption {
-  color: #6F3F29;
-}
-#coffee .grid c3 {
-  align-content: center;
-}
-#coffee .grid c3 caption {
-  color: #6F3F29;
-}
-#coffee .grid c4 {
-  align-content: center;
-}
-#coffee .grid c4 caption {
+#coffee p {
+  text-align: center;
+  text-align: justify;
   color: #6F3F29;
 }
 
@@ -568,22 +548,8 @@ footer > div #n2 input {
   grid-template-areas: "n1 n2 n3";
   background-color: #ECE7E5;
 }
-#trending .grid n1 {
-  align-content: center;
-}
-#trending .grid n1 caption {
-  color: #6F3F29;
-}
-#trending .grid n2 {
-  align-content: center;
-}
-#trending .grid n2 caption {
-  color: #6F3F29;
-}
-#trending .grid n3 {
-  align-content: center;
-}
-#trending .grid n3 caption {
+#trending .grid p {
+  text-align: center;
   color: #6F3F29;
 }
 @media (min-width: 768px) {
@@ -645,7 +611,9 @@ footer > div #n2 input {
   max-width: 1225px;
   grid-template-areas: "n1 n2";
 }
-#coffeeware n1 {
+#coffeeware p {
+  text-align: justify;
+  text-justify: inter-word;
   color: #6F3F29;
 }
 #coffeeware .grid {
@@ -656,28 +624,9 @@ footer > div #n2 input {
   grid-template-areas: "f1 f2 f3 f4";
   background-color: #ECE7E5;
 }
-#coffeeware f1 {
-  align-content: center;
-}
-#coffeeware f1 caption {
-  color: #6F3F29;
-}
-#coffeeware f2 {
-  align-content: center;
-}
-#coffeeware f2 caption {
-  color: #6F3F29;
-}
-#coffeeware f3 {
-  align-content: center;
-}
-#coffeeware f3 caption {
-  color: #6F3F29;
-}
-#coffeeware f4 {
-  align-content: center;
-}
-#coffeeware f4 caption {
+#coffeeware p {
+  text-align: center;
+  text-align: justify;
   color: #6F3F29;
 }
 
@@ -710,6 +659,12 @@ footer > div #n2 input {
 #coffee101 > div h1 {
   color: #6F3F29;
 }
+#coffee101 > div n2 p {
+  color: #6F3F29;
+}
+#coffee101 > div h2 {
+  color: #BFA16D;
+}
 @media (min-width: 768px) {
   #coffee101 > div ul {
     display: grid;
@@ -734,33 +689,6 @@ footer > div #n2 input {
 }
 #coffee101 > div ul li section > div {
   grid-area: coffee101;
-}
-#coffee101 > div n2 p {
-  color: #6F3F29;
-}
-#coffee101 > div n3 {
-  text-align: center;
-}
-#coffee101 > div n3 h2 {
-  color: #BFA16D;
-}
-#coffee101 > div n4 {
-  align-content: center;
-}
-#coffee101 > div n4 h2 {
-  color: #BFA16D;
-}
-#coffee101 > div n5 {
-  align-content: center;
-}
-#coffee101 > div n5 h2 {
-  color: #BFA16D;
-}
-#coffee101 > div n6 {
-  align-content: center;
-}
-#coffee101 > div n6 h2 {
-  color: #BFA16D;
 }
 
 /* =============
@@ -800,13 +728,8 @@ footer > div #n2 input {
 #coffeeclub .grid > div h1 {
   color: #6F3F29;
 }
-#coffeeclub .grid > div n1 {
-  color: #6F3F29;
-}
-#coffeeclub .grid > div n2 {
-  color: #6F3F29;
-}
-#coffeeclub .grid > div n3 {
+#coffeeclub .grid > div p {
+  text-align: center;
   color: #6F3F29;
 }
 @media (min-width: 768px) {
@@ -842,6 +765,8 @@ footer > div #n2 input {
   color: #6F3F29;
 }
 #aboutus p {
+  text-align: justify;
+  text-justify: inter-word;
   color: #6F3F29;
 }
 #aboutus .grid {
@@ -850,12 +775,6 @@ footer > div #n2 input {
   grid-gap: 73px;
   max-width: 1259px;
   grid-template-areas: "n1 n2 n3";
-}
-#aboutus n2 {
-  color: #6F3F29;
-}
-#aboutus n3 {
-  color: #6F3F29;
 }
 
 #email {

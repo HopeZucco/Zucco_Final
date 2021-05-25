@@ -6,7 +6,9 @@
         color: $kobicha;
     }
     p{
-            color: $kobicha;
+        text-align: justify;
+        text-justify: inter-word;
+        color: $kobicha;
     }
     .grid{
         display: grid;
@@ -15,10 +17,4 @@
         max-width: 1259px;
         grid-template-areas: "n1 n2 n3";
     }  
-    n2{
-        color: $kobicha;
-    }
-    n3{
-        color: $kobicha;
-    }
 }
