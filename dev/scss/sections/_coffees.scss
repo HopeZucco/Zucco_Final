@@ -12,20 +12,14 @@
         grid-gap: 76px;
         max-width: 1259px;
         grid-template-areas: "n1 n2 n3";
-
-        n2{
-            p{
-             color: $kobicha;
-            }
-        }
-    
-        n3{
-            p{
-             color: $kobicha;
-            }
-        }
     }
-    
+    n2{
+        color: $kobicha;
+    }
+
+    n3{
+        color: $kobicha;
+    } 
     .grid{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -33,31 +27,27 @@
         max-width: 1400px;
         grid-template-areas: "c1 c2 c3 c4";
         background-color: $alabaster;
-        c1{
-            align-content: center;
-            caption{
-             color: $kobicha;
-            }
-        }
-    
-        c2{
-            align-content: center;
-            caption{
-             color: $kobicha;
-            }
-        }
-        c3{
-            align-content: center;
-            caption{
-             color: $kobicha;
-            }
-        }
-    
-        c4{
-            align-content: center;
-            caption{
-             color: $kobicha;
-            }
+    }
+    c1{
+        caption{
+         color: $kobicha;
         }
     }
+    c2{
+        caption{
+         color: $kobicha;
+        }
+    }
+    c3{
+        caption{
+         color: $kobicha;
+        }
+    }
+
+    c4{
+        caption{
+            color: $kobicha;
+         }
+    }
+    
 }
