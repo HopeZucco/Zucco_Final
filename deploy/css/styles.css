@@ -394,13 +394,13 @@ textarea {
 /* =============
     Header
 ============= */
-#header {
+header {
+  background-color: #AB9D98;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
-  background-color: #AB9D98;
 }
-#header > div {
+header > div {
   grid-area: header;
 }
 
@@ -492,7 +492,10 @@ footer > div #n2 input {
     grid-template-columns: 50% auto;
   }
 }
-#hero a p {
+#hero p {
+  max-width: 880px;
+  text-align: justify;
+  text-justify: inter-word;
   color: #6F3F29;
 }
 
@@ -681,6 +684,9 @@ footer > div #n2 input {
 #coffee101 h1 {
   color: #6F3F29;
 }
+#coffee101 p {
+  color: #6F3F29;
+}
 @media (min-width: 768px) {
   #coffee101 {
     display: grid;
@@ -730,27 +736,27 @@ footer > div #n2 input {
   color: #6F3F29;
 }
 #coffee101 > div n3 {
-  align-content: center;
+  text-align: center;
 }
-#coffee101 > div n3 caption h2 {
+#coffee101 > div n3 h2 {
   color: #BFA16D;
 }
 #coffee101 > div n4 {
   align-content: center;
 }
-#coffee101 > div n4 caption h2 {
+#coffee101 > div n4 h2 {
   color: #BFA16D;
 }
 #coffee101 > div n5 {
   align-content: center;
 }
-#coffee101 > div n5 caption h2 {
+#coffee101 > div n5 h2 {
   color: #BFA16D;
 }
 #coffee101 > div n6 {
   align-content: center;
 }
-#coffee101 > div n6 caption h2 {
+#coffee101 > div n6 h2 {
   color: #BFA16D;
 }
 
@@ -761,6 +767,8 @@ footer > div #n2 input {
   color: #6F3F29;
 }
 #coffeeclub p {
+  text-align: justify;
+  text-justify: inter-word;
   color: #6F3F29;
 }
 #coffeeclub .grid {
@@ -768,21 +776,6 @@ footer > div #n2 input {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 93px;
   grid-template-areas: "n1 n2 n3";
-}
-#coffeeclub .grid n1 {
-  align-content: center;
-}
-#coffeeclub .grid n1 caption {
-  color: #6F3F29;
-}
-#coffeeclub .grid n2 caption {
-  color: #6F3F29;
-}
-#coffeeclub .grid n3 {
-  align-content: center;
-}
-#coffeeclub .grid n3 caption {
-  color: #6F3F29;
 }
 @media (min-width: 768px) {
   #coffeeclub .grid {
@@ -802,6 +795,18 @@ footer > div #n2 input {
   }
 }
 #coffeeclub .grid > div h1 {
+  color: #6F3F29;
+}
+#coffeeclub .grid > div n1 div caption {
+  text-align: center;
+  color: #6F3F29;
+}
+#coffeeclub .grid > div n2 caption {
+  text-align: center;
+  color: #6F3F29;
+}
+#coffeeclub .grid > div n3 caption {
+  text-align: center;
   color: #6F3F29;
 }
 @media (min-width: 768px) {
@@ -836,12 +841,21 @@ footer > div #n2 input {
 #aboutus h1 {
   color: #6F3F29;
 }
+#aboutus p {
+  color: #6F3F29;
+}
 #aboutus .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 73px;
   max-width: 1259px;
   grid-template-areas: "n1 n2 n3";
+}
+#aboutus n2 {
+  color: #6F3F29;
+}
+#aboutus n3 {
+  color: #6F3F29;
 }
 
 #email {

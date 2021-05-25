@@ -6,6 +6,8 @@
         color: $kobicha;  
     }
     p{
+        text-align: justify;
+        text-justify: inter-word;
         color: $kobicha; 
     }
     .grid{
@@ -13,26 +15,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 93px;
     grid-template-areas: "n1 n2 n3";
-
-    n1{
-        align-content: center;
-        caption{
-            color: $kobicha;
-        }
-    }
-
-    n2{
-        caption{           
-            color: $kobicha;
-        }
-    }
-
-    n3{
-        align-content: center;
-        caption{            
-            color: $kobicha;
-        }
-    }
   
   @include md{
       display: grid;
@@ -53,6 +35,29 @@
       h1{
           color: $kobicha;
       }
+      
+    n1{
+        div{
+            caption{
+                text-align: center;
+                color: $kobicha;
+            }
+        }
+    }
+
+    n2{
+        caption{    
+            text-align: center;       
+            color: $kobicha;
+        }
+    }
+
+    n3{
+        caption{   
+            text-align: center;         
+            color: $kobicha;
+        }
+    }
 
       ul{
 

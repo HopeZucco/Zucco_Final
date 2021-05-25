@@ -5,6 +5,9 @@
     h1{
         color: $kobicha;
     }
+    p{
+        color: $kobicha;
+    }
     @include md{
         display: grid;
         grid-template-columns: 16px auto 16px;
@@ -68,39 +71,31 @@
         }
 
         n3{
-            align-content: center;
-            caption{
+            text-align: center;
                 h2{
                     color: $camel;
                 }
-            }
         }
 
         n4{
             align-content: center;
-            caption{
                 h2{
                     color: $camel;
-                }
-            }
+                }  
         }
 
         n5{
             align-content: center;
-            caption{
                 h2{
                     color: $camel;
                 }
-            }
         }
-        
+
         n6{
             align-content: center;
-            caption{
                 h2{
                     color: $camel;
                 }
-            }
         }
     }
 }

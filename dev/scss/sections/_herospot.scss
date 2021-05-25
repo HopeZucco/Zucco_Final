@@ -24,9 +24,10 @@
       grid-template-columns: 50% auto;
     }
   }
-  a{
     p{
+      max-width: 880px;
+      text-align: justify;
+      text-justify: inter-word;
       color: $kobicha;
     }
-  }
 }
