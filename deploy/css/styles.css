@@ -400,6 +400,9 @@ header {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
 }
+header h1 {
+  color: #ECE7E5;
+}
 header > div {
   grid-area: header;
 }
@@ -653,7 +656,28 @@ footer > div #n2 input {
   grid-template-areas: "f1 f2 f3 f4";
   background-color: #ECE7E5;
 }
-#coffeeware caption {
+#coffeeware f1 {
+  align-content: center;
+}
+#coffeeware f1 caption {
+  color: #6F3F29;
+}
+#coffeeware f2 {
+  align-content: center;
+}
+#coffeeware f2 caption {
+  color: #6F3F29;
+}
+#coffeeware f3 {
+  align-content: center;
+}
+#coffeeware f3 caption {
+  color: #6F3F29;
+}
+#coffeeware f4 {
+  align-content: center;
+}
+#coffeeware f4 caption {
   color: #6F3F29;
 }
 

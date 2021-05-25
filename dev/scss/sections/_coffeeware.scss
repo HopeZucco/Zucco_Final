@@ -23,7 +23,30 @@
         grid-template-areas: "f1 f2 f3 f4";
         background-color: $alabaster;
     }
-    caption{
-        color: $kobicha;
-    }
+    f1{
+            align-content: center;
+            caption{
+             color: $kobicha;
+            }
+        }
+    
+        f2{
+            align-content: center;
+            caption{
+             color: $kobicha;
+            }
+        }
+        f3{
+            align-content: center;
+            caption{
+             color: $kobicha;
+            }
+        }
+    
+        f4{
+            align-content: center;
+            caption{
+             color: $kobicha;
+            }
+        }
  }

@@ -27,6 +27,35 @@
         h1{
             color: $kobicha;
         }
+        n2{
+            p{
+             color: $kobicha;
+            }
+        }
+
+        n3{
+                h2{
+                    color: $camel;
+                }
+        }
+
+        n4{
+                h2{
+                    color: $camel;
+                }  
+        }
+
+        n5{
+                h2{
+                    color: $camel;
+                }
+        }
+
+        n6{
+                h2{
+                    color: $camel;
+                }
+        }
 
         ul{
 
@@ -62,40 +91,6 @@
                     }
                 }
             }
-        }
-
-        n2{
-            p{
-             color: $kobicha;
-            }
-        }
-
-        n3{
-            text-align: center;
-                h2{
-                    color: $camel;
-                }
-        }
-
-        n4{
-            align-content: center;
-                h2{
-                    color: $camel;
-                }  
-        }
-
-        n5{
-            align-content: center;
-                h2{
-                    color: $camel;
-                }
-        }
-
-        n6{
-            align-content: center;
-                h2{
-                    color: $camel;
-                }
         }
     }
 }
