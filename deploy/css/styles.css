@@ -2,6 +2,8 @@
     Mixins
 ============= */
 /* ---------------- Font Sizing ---------------- */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap");
 html {
   font-size: 100%;
 }
@@ -367,6 +369,21 @@ ul li {
 /* =============
     Typography
 ============= */
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: "Vollkorn", serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "Vollkorn", serif;
+  font-size: 42px;
+}
+
 /* =============
     Buttons
 ============= */

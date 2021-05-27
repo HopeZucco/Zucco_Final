@@ -12,12 +12,17 @@
         grid-gap: 76px;
         max-width: 1259px;
         grid-template-areas: "n1 n2 n3";
+
+        n2{
+            max-height: 369px;
+        }
     }
         p{
             text-align: justify;
             text-justify: inter-word;
             color: $kobicha;
         }
+
     .grid{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
