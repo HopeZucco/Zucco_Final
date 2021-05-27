@@ -373,13 +373,26 @@ p {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
 }
-
-h1 {
+@media (min-width: 768px) {
+  p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  p {
+    font-size: 19px;
+  }
+}
+@media (min-width: 768px) and (min-width: 576px) {
+  p {
+    font-size: 17px;
+  }
+}
+p h1 {
   font-family: "Vollkorn", serif;
   font-size: 48px;
 }
-
-h2 {
+p h2 {
   font-family: "Vollkorn", serif;
   font-size: 42px;
 }
@@ -532,6 +545,9 @@ footer > div #n2 input {
   max-width: 1259px;
   grid-template-areas: "n1 n2 n3";
 }
+#coffee .grid n2 {
+  max-height: 369px;
+}
 #coffee p {
   text-align: justify;
   text-justify: inter-word;
@@ -563,6 +579,7 @@ footer > div #n2 input {
   grid-gap: 93px;
   max-width: 1086px;
   grid-template-areas: "n1 n2 n3";
+  padding: 90px;
   background-color: #ECE7E5;
 }
 #trending .grid p {
@@ -661,6 +678,7 @@ footer > div #n2 input {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". coffee101 .";
+    padding: 30px;
   }
 }
 @media (min-width: 1024px) {
