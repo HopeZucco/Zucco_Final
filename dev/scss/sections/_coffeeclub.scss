@@ -9,10 +9,12 @@
     }
 
     article{
-        color: $kobicha;
-        text-align: justify;
-        text-justify: inter-word;
-        align-content: center;
+        p{
+            color: $kobicha;
+            text-align: justify;
+            text-justify: inter-word;
+            align-content: center;
+        }
     }
     
     p{
