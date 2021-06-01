@@ -530,13 +530,15 @@ footer > div #n2 input {
   text-align: justify;
   text-justify: inter-word;
   color: #6F3F29;
-  margin-left: 275px;
-  margin-right: 275px;
+  margin: 15px;
 }
 
 /* =============
     Coffees
 ============= */
+#coffee {
+  @incl;
+}
 #coffee h1 {
   color: #6F3F29;
 }
@@ -738,6 +740,7 @@ footer > div #n2 input {
   text-align: justify;
   text-justify: inter-word;
   color: #6F3F29;
+  max-width: 780px;
 }
 #coffeeclub .grid {
   display: grid;

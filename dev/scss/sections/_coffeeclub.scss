@@ -16,11 +16,6 @@
     grid-gap: 93px;
     grid-template-areas: "n1 n2 n3";
   
-  @include md{
-      display: grid;
-      grid-template-columns: 16px auto 16px;
-      grid-template-areas: ". coffeeclub .";
-  }
 
   @include lg{
       grid-template-columns: auto 1024px auto;
@@ -45,8 +40,8 @@
 
           @include md{
               display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              grid-template-areas: "n1 n2 n3";
+              grid-template-columns: 16px auto 16px;
+              grid-template-areas: ". coffeeclub .";
               gap: 16px;
           }
 
