@@ -3,53 +3,37 @@
 ============= */
 #trending{
 
-        h1{
-            color: $kobicha; 
-        }
+    h1{
+        color: $kobicha;
+        text-align: justify;
+        text-justify: inter-word;
+    }
 
-        p{
-            color: $kobicha;
-        }
+    p{
+        color: $kobicha;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". trending .";
 
-    ul{
-        @include xl{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-areas: "n1 n2 n3";
-            gap: 30px;
-        }
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+    >div{
+            grid-area: trending;
 
-        @include lg{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-areas: "n1 n2 n3";
-            gap: 30px;
-        }
-        @include md{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-areas: "n1 n2";
-            gap: 30px;
-
-            @media only screen and (max-width: 768px) {
-                .n3{
-                    display: none;
-                 }
-             }
-        }
-
-        @include sm{
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-areas: "n1";
-            gap: 30px;
-
-            #n2{
-                display: none;
+            @include md{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: "n1 n2 n3";
+                gap: 16px;
             }
-            #n3{
-                display: none;
+
+            @include lg{
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas: "n1 n2 n3";
             }
-        }
     }
 }

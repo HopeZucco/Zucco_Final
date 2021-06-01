@@ -3,69 +3,43 @@
 ============= */
 #coffeeclub{
     h1{
-        color: $kobicha;  
-    }
-    p{
+        color: $kobicha;
         text-align: justify;
         text-justify: inter-word;
-        color: $kobicha; 
     }
-    .grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 93px;
-    grid-template-areas: "n1 n2 n3";
-  
 
-  @include lg{
-      grid-template-columns: auto 1024px auto;
-  }
- 
-  >div{
-
-      @include md{
-          grid-area: coffeeclub;
-      }
-
-      h1{
-          color: $kobicha;
-      }
-      
+    article{
+        color: $kobicha;
+        text-align: justify;
+        text-justify: inter-word;
+        align-content: center;
+    }
+    
     p{
-        text-align: center;
         color: $kobicha;
     }
-
-      ul{
-
-          @include md{
-              display: grid;
-              grid-template-columns: 16px auto 16px;
-              grid-template-areas: ". coffeeclub .";
-              gap: 16px;
-          }
-
-          @include lg{
-              grid-template-columns: repeat(3, 1fr);
-              grid-template-areas: "n1 n2 n3";
-          }
-  
-          li{
-
-              img{
-                  width: 100%;
-              }
-  
-              section{
-                  display: grid;
-                  grid-template-columns: 16px auto 16px;
-                  grid-template-areas: ". coffeeclub .";
-                  >div{
-                      grid-area: coffeeclub;
-                  }
-              }
-          }
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". coffeeclub .";
+    
+        @include xl{
+            grid-template-columns: auto 1200px auto;
+        }
+        >div{
+            grid-area: coffeeclub;
+    
+            @include md{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: "n1 n2 n3";
+                gap: 16px;
+            }
+    
+            @include lg{
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas: "n1 n2 n3";
+            }
+    
         }
     }
-}
-}
+    

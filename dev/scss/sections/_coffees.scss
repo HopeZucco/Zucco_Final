@@ -4,25 +4,38 @@
 #coffee{
     h1{
         color: $kobicha;
+        
     }
-
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 76px;
-        max-width: 1259px;
-        grid-template-areas: "n1 n2 n3";
-
-        n2{
-            max-height: 369px;
-        }
-    }
-        p{
-            text-align: justify;
-            text-justify: inter-word;
-            color: $kobicha;
+    p{
+        color: $kobicha;
+        text-align: justify;
+        text-justify: inter-word;
         }
 
+        .grid{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". intro .";
+        
+            @include xl{
+                grid-template-columns: auto 1200px auto;
+            }
+            >div{
+                grid-area: intro;
+        
+                @include md{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-areas: "n1 n2 n3";
+                    gap: 16px;
+                }
+        
+                @include lg{
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "n1 n2 n3";
+                }
+            }
+        }
     .grid{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -36,5 +49,5 @@
         text-align: justify;
         color: $kobicha;
     }
-    
 }
+   

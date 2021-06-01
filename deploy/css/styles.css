@@ -378,28 +378,45 @@ p {
     font-size: 17px;
   }
 }
-@media (min-width: 768px) and (min-width: 1024px) {
+@media (min-width: 1024px) {
   p {
     font-size: 19px;
   }
 }
-@media (min-width: 768px) and (min-width: 576px) {
+@media (min-width: 576px) {
   p {
     font-size: 17px;
   }
 }
-p h1 {
+
+h1 {
   font-family: "Vollkorn", serif;
   font-size: 48px;
 }
-p h2 {
+
+h2 {
   font-family: "Vollkorn", serif;
   font-size: 42px;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
 }
 
 /* =============
     Buttons
 ============= */
+button {
+  background-color: #BFA16D;
+  border: none;
+  color: #D8D8D8;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* =============
     Forms
 ============= */
@@ -539,20 +556,37 @@ footer > div #n2 input {
 #coffee h1 {
   color: #6F3F29;
 }
-#coffee .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 76px;
-  max-width: 1259px;
-  grid-template-areas: "n1 n2 n3";
-}
-#coffee .grid n2 {
-  max-height: 369px;
-}
 #coffee p {
+  color: #6F3F29;
   text-align: justify;
   text-justify: inter-word;
-  color: #6F3F29;
+}
+#coffee .grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". intro .";
+}
+@media (min-width: 1200px) {
+  #coffee .grid {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#coffee .grid > div {
+  grid-area: intro;
+}
+@media (min-width: 768px) {
+  #coffee .grid > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "n1 n2 n3";
+    gap: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #coffee .grid > div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2 n3";
+  }
 }
 #coffee .grid {
   display: grid;
@@ -571,53 +605,41 @@ footer > div #n2 input {
 /* =============
     Trending
 ============= */
+#trending {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". trending .";
+}
 #trending h1 {
   color: #6F3F29;
+  text-align: justify;
+  text-justify: inter-word;
 }
 #trending p {
   color: #6F3F29;
+  text-align: justify;
+  text-justify: inter-word;
 }
 @media (min-width: 1200px) {
-  #trending ul {
+  #trending {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#trending > div {
+  grid-area: trending;
+}
+@media (min-width: 768px) {
+  #trending > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
-    gap: 30px;
+    gap: 16px;
   }
 }
 @media (min-width: 1024px) {
-  #trending ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "n1 n2 n3";
-    gap: 30px;
-  }
-}
-@media (min-width: 768px) {
-  #trending ul {
-    display: grid;
+  #trending > div {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "n1 n2";
-    gap: 30px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 768px) {
-  #trending ul .n3 {
-    display: none;
-  }
-}
-@media (min-width: 576px) {
-  #trending ul {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "n1";
-    gap: 30px;
-  }
-  #trending ul #n2 {
-    display: none;
-  }
-  #trending ul #n3 {
-    display: none;
+    grid-template-areas: "n1 n2 n3";
   }
 }
 
@@ -718,61 +740,46 @@ footer > div #n2 input {
 /* =============
     Coffee Club
 ============= */
-#coffeeclub h1 {
-  color: #6F3F29;
-}
-#coffeeclub p {
-  text-align: justify;
-  text-justify: inter-word;
-  color: #6F3F29;
-}
-#coffeeclub .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 93px;
-  grid-template-areas: "n1 n2 n3";
-}
-@media (min-width: 1024px) {
-  #coffeeclub .grid {
-    grid-template-columns: auto 1024px auto;
-  }
-}
-@media (min-width: 768px) {
-  #coffeeclub .grid > div {
-    grid-area: coffeeclub;
-  }
-}
-#coffeeclub .grid > div h1 {
-  color: #6F3F29;
-}
-#coffeeclub .grid > div p {
-  text-align: center;
-  color: #6F3F29;
-}
-@media (min-width: 768px) {
-  #coffeeclub .grid > div ul {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". coffeeclub .";
-    gap: 16px;
-  }
-}
-@media (min-width: 1024px) {
-  #coffeeclub .grid > div ul {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "n1 n2 n3";
-  }
-}
-#coffeeclub .grid > div ul li img {
-  width: 100%;
-}
-#coffeeclub .grid > div ul li section {
+#coffeeclub {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". coffeeclub .";
 }
-#coffeeclub .grid > div ul li section > div {
+#coffeeclub h1 {
+  color: #6F3F29;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#coffeeclub article {
+  color: #6F3F29;
+  text-align: justify;
+  text-justify: inter-word;
+  align-content: center;
+}
+#coffeeclub p {
+  color: #6F3F29;
+}
+@media (min-width: 1200px) {
+  #coffeeclub {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#coffeeclub > div {
   grid-area: coffeeclub;
+}
+@media (min-width: 768px) {
+  #coffeeclub > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "n1 n2 n3";
+    gap: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #coffeeclub > div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2 n3";
+  }
 }
 
 /* =============
