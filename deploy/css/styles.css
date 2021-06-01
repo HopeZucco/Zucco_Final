@@ -536,9 +536,6 @@ footer > div #n2 input {
 /* =============
     Coffees
 ============= */
-#coffee {
-  @incl;
-}
 #coffee h1 {
   color: #6F3F29;
 }
@@ -577,63 +574,51 @@ footer > div #n2 input {
 #trending h1 {
   color: #6F3F29;
 }
-#trending .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 93px;
-  max-width: 1086px;
-  grid-template-areas: "n1 n2 n3";
-  padding: 90px;
-  background-color: #ECE7E5;
-}
-#trending .grid p {
-  text-align: center;
+#trending p {
   color: #6F3F29;
 }
-@media (min-width: 768px) {
-  #trending .grid {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". trending .";
-  }
-}
-@media (min-width: 1024px) {
-  #trending .grid {
-    grid-template-columns: auto 1024px auto;
-  }
-}
-@media (min-width: 768px) {
-  #trending .grid > div {
-    grid-area: trending;
-  }
-}
-#trending .grid > div h1 {
-  color: #6F3F29;
-}
-@media (min-width: 768px) {
-  #trending .grid > div ul {
+@media (min-width: 1200px) {
+  #trending ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
-    gap: 16px;
+    gap: 30px;
   }
 }
 @media (min-width: 1024px) {
-  #trending .grid > div ul {
+  #trending ul {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
+    gap: 30px;
   }
 }
-#trending .grid > div ul li img {
-  width: 100%;
+@media (min-width: 768px) {
+  #trending ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2";
+    gap: 30px;
+  }
 }
-#trending .grid > div ul li section {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". trending .";
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  #trending ul .n3 {
+    display: none;
+  }
 }
-#trending .grid > div ul li section > div {
-  grid-area: trending;
+@media (min-width: 576px) {
+  #trending ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "n1";
+    gap: 30px;
+  }
+  #trending ul #n2 {
+    display: none;
+  }
+  #trending ul #n3 {
+    display: none;
+  }
 }
 
 /* =============
@@ -740,20 +725,12 @@ footer > div #n2 input {
   text-align: justify;
   text-justify: inter-word;
   color: #6F3F29;
-  max-width: 780px;
 }
 #coffeeclub .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 93px;
   grid-template-areas: "n1 n2 n3";
-}
-@media (min-width: 768px) {
-  #coffeeclub .grid {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". coffeeclub .";
-  }
 }
 @media (min-width: 1024px) {
   #coffeeclub .grid {
@@ -775,8 +752,8 @@ footer > div #n2 input {
 @media (min-width: 768px) {
   #coffeeclub .grid > div ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "n1 n2 n3";
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". coffeeclub .";
     gap: 16px;
   }
 }

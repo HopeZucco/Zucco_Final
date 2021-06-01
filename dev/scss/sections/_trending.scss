@@ -2,15 +2,54 @@
     Trending
 ============= */
 #trending{
-    h1{
-        color: $kobicha;
-    }
-    p{
-        color: $kobicha;
-    }
-    @include md{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". trending .";
+
+        h1{
+            color: $kobicha; 
+        }
+
+        p{
+            color: $kobicha;
+        }
+
+    ul{
+        @include xl{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: "n1 n2 n3";
+            gap: 30px;
+        }
+
+        @include lg{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: "n1 n2 n3";
+            gap: 30px;
+        }
+        @include md{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "n1 n2";
+            gap: 30px;
+
+            @media only screen and (max-width: 768px) {
+                .n3{
+                    display: none;
+                 }
+             }
+        }
+
+        @include sm{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "n1";
+            gap: 30px;
+
+            #n2{
+                display: none;
+            }
+            #n3{
+                display: none;
+            }
+        }
     }
 }
