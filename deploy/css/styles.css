@@ -654,6 +654,14 @@ footer > div #n2 input {
     grid-template-areas: "n1 n2 n3";
   }
 }
+@media (min-width: 576px) {
+  #trending > div .hidden n2 {
+    display: none;
+  }
+  #trending > div .hidden n3 {
+    display: none;
+  }
+}
 
 /* =============
     Coffeeware
