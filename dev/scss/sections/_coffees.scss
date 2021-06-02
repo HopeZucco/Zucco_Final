@@ -9,12 +9,13 @@
         color: $kobicha;
         text-align: justify;
         text-justify: inter-word;
-        }
+    }
 
         .grid{
             display: grid;
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". intro .";
+            margin: auto;
         
             @include xl{
                 grid-template-columns: auto 1200px auto;
@@ -25,12 +26,18 @@
                 @include md{
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas: "n1 n2 n3";
+                    grid-template-areas: ". n1 ."
+                    ". n2 ."
+                    ". n3 .";
                     gap: 16px;
                 }
         
                 @include lg{
-                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-areas: "n1 n2 n3";
+                }
+                @include xl{
+                    grid-template-columns: repeat(3, 1fr);
                     grid-template-areas: "n1 n2 n3";
                 }
             }

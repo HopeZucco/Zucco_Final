@@ -2,11 +2,15 @@
     Trending
 ============= */
 #trending{
-    h1{
-        color: $kobicha;
-        text-align: justify;
-        text-justify: inter-word;
-    }
+
+        h1{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". trend .";
+            color: $kobicha;
+            text-align: justify;
+            text-justify: inter-word;
+        }
 
     p{
         color: $kobicha;
@@ -37,10 +41,10 @@
 
         @include sm{
                 n2{
-                    display: none;
+                    display: none !important;
                 }
                 n3{
-                    display: none;
+                    display: none !important;
                 }
         }
     }

@@ -577,6 +577,7 @@ footer > div #n2 input {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". intro .";
+  margin: auto;
 }
 @media (min-width: 1200px) {
   #coffee .grid {
@@ -590,13 +591,19 @@ footer > div #n2 input {
   #coffee .grid > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "n1 n2 n3";
+    grid-template-areas: ". n1 ." ". n2 ." ". n3 .";
     gap: 16px;
   }
 }
 @media (min-width: 1024px) {
   #coffee .grid > div {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "n1 n2 n3";
+  }
+}
+@media (min-width: 1200px) {
+  #coffee .grid > div {
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
   }
 }
@@ -623,6 +630,9 @@ footer > div #n2 input {
   grid-template-areas: ". trending .";
 }
 #trending h1 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". trend .";
   color: #6F3F29;
   text-align: justify;
   text-justify: inter-word;
@@ -655,11 +665,11 @@ footer > div #n2 input {
   }
 }
 @media (min-width: 576px) {
-  #trending > div .hidden n2 {
-    display: none;
+  #trending > div n2 {
+    display: none !important;
   }
-  #trending > div .hidden n3 {
-    display: none;
+  #trending > div n3 {
+    display: none !important;
   }
 }
 
