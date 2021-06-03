@@ -73,7 +73,9 @@
        color: $alabaster;
        margin: 30px; 
     }
+    
     display: grid;
+    background-color: $palesilverdark;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";
     >div{
