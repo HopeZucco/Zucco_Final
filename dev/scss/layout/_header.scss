@@ -1,19 +1,7 @@
 /* =============
     Header
 ============= */
-header{
-    h1{
-       color: $alabaster;
-       margin: 30px;
-       text-align: center; 
-    }
-    background-color: $palesilverdark;
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
-    >div{
-        grid-area: header;
-    }
+#header{
     #navigation {
         display: grid;
         grid-template-columns: 16px auto 60%;
@@ -28,7 +16,7 @@ header{
         #burger_container {
             grid-area: burger;
             font-size: rem-calc(60);
-            color: $bg-blue;
+            color: $white;
             margin-bottom: -60px;
             
 
@@ -80,5 +68,17 @@ header{
                 }
             }
         }
+    }
+    h1{
+       color: $alabaster;
+       margin: 30px;
+       text-align:center; 
+    }
+    background-color: $palesilverdark;
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". header .";
+    >div{
+        grid-area: header;
     }
 }
