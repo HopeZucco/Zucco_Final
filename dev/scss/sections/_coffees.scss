@@ -16,6 +16,7 @@
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". intro .";
             margin: auto;
+            background-color: $white;
         
             @include xl{
                 grid-template-columns: auto 1200px auto;
@@ -26,26 +27,26 @@
                 @include sm{
                     display: grid;
                     grid-template-columns: repeat(1, 1fr);
-                    grid-template-rows: "n1"
-                    "n2"
-                    "n3";
                     gap: 16px;
+                    margin:auto;
                 }
         
                 @include md{
                     display: grid;
                     grid-template-columns: repeat(1, 1fr);
-                    grid-template-areas: "n1 n2 n3";
                     gap: 16px;
+                    margin:auto;
                 }
         
                 @include lg{
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-areas: "n1 n2 n3";
+                    margin:auto;
                 }
                 @include xl{
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-areas: "n1 n2 n3";
+                    margin:auto;
                 }
             }
         }
@@ -56,6 +57,7 @@
         max-width: 1400px;
         grid-template-areas: "c1 c2 c3 c4";
         background-color: $alabaster;
+        margin:auto;
     }
     p{
         text-align: center;

@@ -600,6 +600,7 @@ footer > div #n2 input {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". intro .";
   margin: auto;
+  background-color: #fff;
 }
 @media (min-width: 1200px) {
   #coffee .grid {
@@ -613,28 +614,30 @@ footer > div #n2 input {
   #coffee .grid > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: "n1" "n2" "n3";
     gap: 16px;
+    margin: auto;
   }
 }
 @media (min-width: 768px) {
   #coffee .grid > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "n1 n2 n3";
     gap: 16px;
+    margin: auto;
   }
 }
 @media (min-width: 1024px) {
   #coffee .grid > div {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
+    margin: auto;
   }
 }
 @media (min-width: 1200px) {
   #coffee .grid > div {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "n1 n2 n3";
+    margin: auto;
   }
 }
 #coffee .grid {
@@ -644,6 +647,7 @@ footer > div #n2 input {
   max-width: 1400px;
   grid-template-areas: "c1 c2 c3 c4";
   background-color: #ECE7E5;
+  margin: auto;
 }
 #coffee p {
   text-align: center;
