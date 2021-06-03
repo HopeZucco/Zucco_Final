@@ -439,6 +439,28 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+}
+#nav-container ul li a:link,
+#nav-container ul li a:visited {
+  color: #fff;
+  padding: 0px 0px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+@media (min-width: 1024px) {
+  #nav-container ul li a:link,
+#nav-container ul li a:visited {
+    color: #fff;
+  }
+}
+#nav-container ul li a:link:hover, #nav-container ul li a:link:active,
+#nav-container ul li a:visited:hover,
+#nav-container ul li a:visited:active {
+  color: #6F3F29;
+}
+
 /* =============
     Header
 ============= */
@@ -556,8 +578,8 @@ footer > div #n2 input {
   margin-left: auto;
   margin-right: auto;
 }
-#hero button {
-  align-content: center;
+#hero #coffeequiz {
+  align-content: center !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -587,11 +609,19 @@ footer > div #n2 input {
 #coffee .grid > div {
   grid-area: intro;
 }
+@media (min-width: 576px) {
+  #coffee .grid > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: "n1" "n2" "n3";
+    gap: 16px;
+  }
+}
 @media (min-width: 768px) {
   #coffee .grid > div {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: ". n1 ." ". n2 ." ". n3 .";
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "n1 n2 n3";
     gap: 16px;
   }
 }
@@ -627,49 +657,59 @@ footer > div #n2 input {
 #trending {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". trending .";
+  grid-template-areas: ". trend ." ". trending .";
+  margin: 15px;
 }
 #trending h1 {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". trend .";
   color: #6F3F29;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: center;
+  margin: 15px;
 }
 #trending p {
   color: #6F3F29;
-  text-align: justify;
-  text-justify: inter-word;
 }
 @media (min-width: 1200px) {
   #trending {
     grid-template-columns: auto 1200px auto;
   }
 }
+#trending .span-col-3 {
+  grid-column: span 3/auto;
+}
 #trending > div {
   grid-area: trending;
+  background-color: #ECE7E5;
+}
+#trending > div #trend {
+  background-color: #fff;
+}
+@media (min-width: 576px) {
+  #trending > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "trend" "n1";
+    gap: 30px;
+    margin: auto;
+  }
+  #trending > div #travelmug {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 @media (min-width: 768px) {
   #trending > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "n1 n2 n3";
-    gap: 16px;
+    grid-template-areas: ". trend ." "n1 n2 n3";
+    gap: 30px;
+    margin: auto;
   }
 }
 @media (min-width: 1024px) {
   #trending > div {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "n1 n2 n3";
-  }
-}
-@media (min-width: 576px) {
-  #trending > div n2 {
-    display: none !important;
-  }
-  #trending > div n3 {
-    display: none !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: ". trend ." "n1 n2 n3";
+    margin: auto;
   }
 }
 
@@ -773,18 +813,20 @@ footer > div #n2 input {
 #coffeeclub {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". coffeeclub .";
+  grid-template-areas: ". intro ." ". coffeeclub .";
+  margin: 15px;
 }
 #coffeeclub h1 {
   color: #6F3F29;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: center;
+  margin: 15px;
 }
 #coffeeclub article p {
   color: #6F3F29;
   text-align: justify;
   text-justify: inter-word;
   align-content: center;
+  margin: 15px;
 }
 #coffeeclub p {
   color: #6F3F29;
@@ -794,21 +836,39 @@ footer > div #n2 input {
     grid-template-columns: auto 1200px auto;
   }
 }
+#coffeeclub .span-col-3 {
+  grid-column: span 3/auto;
+}
 #coffeeclub > div {
   grid-area: coffeeclub;
+}
+@media (min-width: 576px) {
+  #coffeeclub > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "intro" "n1";
+    gap: 30px;
+    margin: auto;
+  }
+  #coffeeclub > div img {
+    align-content: center;
+    margin: auto;
+  }
 }
 @media (min-width: 768px) {
   #coffeeclub > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "n1 n2 n3";
-    gap: 16px;
+    grid-template-areas: ". intro ." "n1 n2 n3";
+    gap: 30px;
+    margin: auto;
   }
 }
 @media (min-width: 1024px) {
   #coffeeclub > div {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "n1 n2 n3";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: ". intro ." "n1 n2 n3";
+    margin: auto;
   }
 }
 

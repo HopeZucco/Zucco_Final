@@ -2,46 +2,75 @@
     Coffee Club
 ============= */
 #coffeeclub{
-    h1{
-        color: $kobicha;
-        text-align: justify;
-        text-justify: inter-word;
-    }
-
-    article{
-        p{
+        h1{
             color: $kobicha;
-            text-align: justify;
-            text-justify: inter-word;
-            align-content: center;
+            text-align: center;
+            margin: 15px;
+            
         }
-    }
+
+        article{
+            p{
+                color: $kobicha;
+                text-align: justify;
+                text-justify: inter-word;
+                align-content: center;
+                margin: 15px;
+            }
+        }
+
+    
     
     p{
         color: $kobicha;
     }
         display: grid;
         grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". coffeeclub .";
+        grid-template-areas: ". intro ."
+        ". coffeeclub .";
+        margin: 15px;
     
         @include xl{
             grid-template-columns: auto 1200px auto;
         }
+
+        .span-col-3{grid-column: span 3 / auto;}
+        
         >div{
             grid-area: coffeeclub;
+
+            @include sm{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-areas: "intro"
+                "n1";
+                gap: 30px;
+                margin: auto;
+
+                img{
+                    align-content: center;
+                    margin: auto;
+                }
+
+            }
     
             @include md{
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
-                grid-template-areas: "n1 n2 n3";
-                gap: 16px;
+                grid-template-areas: ". intro ."
+                "n1 n2 n3";
+                gap: 30px;
+                margin: auto;
             }
     
             @include lg{
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-areas: "n1 n2 n3";
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: ". intro ."
+                "n1 n2 n3";
+                margin: auto;
             }
     
         }
+
     }
     

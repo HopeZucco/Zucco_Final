@@ -2,50 +2,68 @@
     Trending
 ============= */
 #trending{
-
-        h1{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". trend .";
-            color: $kobicha;
-            text-align: justify;
-            text-justify: inter-word;
-        }
+    h1{
+        color: $kobicha;
+        text-align: center;
+        margin: 15px;
+        
+    }
 
     p{
         color: $kobicha;
-        text-align: justify;
-        text-justify: inter-word;
     }
+
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". trending .";
+    grid-template-areas: ". trend ."
+    ". trending .";
+    margin: 15px;
 
     @include xl{
         grid-template-columns: auto 1200px auto;
     }
+
+    .span-col-3{grid-column: span 3 / auto;}
+    
     >div{
         grid-area: trending;
+        background-color: $alabaster;
+
+        #trend{
+            background-color: $white;
+        }
+
+        @include sm{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "trend"
+            "n1";
+            gap: 30px;
+            margin: auto;
+
+            #travelmug{
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+        }
 
         @include md{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-template-areas: "n1 n2 n3";
-            gap: 16px;
+            grid-template-areas: ". trend ."
+            "n1 n2 n3";
+            gap: 30px;
+            margin: auto;
         }
 
         @include lg{
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-areas: "n1 n2 n3";
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: ". trend ."
+            "n1 n2 n3";
+            margin: auto;
         }
 
-        @include sm{
-                n2{
-                    display: none !important;
-                }
-                n3{
-                    display: none !important;
-                }
-        }
     }
+
 }
