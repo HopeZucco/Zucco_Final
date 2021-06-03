@@ -3,7 +3,9 @@
 ============= */
 header{
     h1{
-       color: $alabaster; 
+       color: $alabaster;
+       margin: 30px;
+       text-align: center; 
     }
     background-color: $palesilverdark;
     display: grid;

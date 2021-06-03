@@ -10,6 +10,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 67;
         max-width: 1225px;
+        margin: auto;
         grid-template-areas: "n1 n2";
         }
      p{
@@ -22,6 +23,7 @@
          grid-template-columns: repeat(4, 1fr);
          grid-gap: 76px;
          max-width: 1400px;
+         margin: auto;
          grid-template-areas: "f1 f2 f3 f4";
          background-color: $alabaster;
          }
