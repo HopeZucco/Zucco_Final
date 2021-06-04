@@ -16,8 +16,8 @@
         #burger_container {
             grid-area: burger;
             font-size: rem-calc(60);
-            color: $white;
-            margin-bottom: -60px;
+            color: $black;
+            margin-bottom: 10px;
             
 
             @include md {
@@ -40,13 +40,14 @@
                     padding: 9px 0px;
                     a:link,
                     a:visited {
-                        color: $white;
+                        color: $black;
                         padding: 0px 0px;
                         text-decoration: none;
                         transition: 0.25s;
+                        font-family: 'Raleway', sans-serif;
         
                         @include lg {
-                            color: $white;
+                            color: $black;
                         }
         
                         &:hover,
@@ -59,8 +60,9 @@
 
             @include md {
                 display: block !important;
-                color: $white;
+                color: $black;
                 padding: 20px;
+                font-family: 'Raleway', sans-serif;
                 
                 >ul {
                     display: flex;
@@ -69,16 +71,16 @@
             }
         }
     }
-    h1{
-       color: $alabaster;
-       margin: 30px; 
-    }
+     h1{
+        color: $alabaster;
+        margin: 30px; 
+     }
     
-    display: grid;
-    background-color: $palesilverdark;
+     display: grid;
+     background-color: $palesilverdark;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
-    >div{
+     grid-template-areas: ". header .";
+     >div{
         grid-area: header;
-    }
+     }
 }
