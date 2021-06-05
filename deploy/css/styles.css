@@ -407,7 +407,7 @@ button {
     Buttons
 ============= */
 button {
-  background-color: #6F3F29;
+  background-color: #BFA16D;
   color: #D8D8D8;
   padding: 15px 32px;
   text-align: center;
@@ -416,6 +416,7 @@ button {
   font-size: 20px;
   max-height: 118px;
   max-width: 235px;
+  border-radius: 10px;
 }
 
 /* =============
@@ -646,7 +647,7 @@ footer > div #n2 input {
   margin-right: auto;
 }
 #hero #coffeequiz {
-  align-content: center !important;
+  align-content: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -701,6 +702,15 @@ footer > div #n2 input {
     grid-template-areas: "n1 n2 n3";
     margin: auto;
   }
+}
+#coffee .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 76px;
+  max-width: 1400px;
+  margin: auto;
+  grid-template-areas: "c1 c2 c3 c4";
+  background-color: #ECE7E5;
 }
 #coffee p {
   text-align: center;
@@ -844,7 +854,7 @@ footer > div #n2 input {
   #coffee101 > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "n2 n2" "n1 n1" "n2 n3" "n4 n5";
+    grid-template-areas: "n2 n2" "n1 n1" "n3 n4" "n5 n6";
     gap: 16px;
   }
 }

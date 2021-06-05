@@ -43,6 +43,16 @@
                     margin:auto;
                 }
             }
+    .grid{
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-gap: 76px;
+         max-width: 1400px;
+         margin: auto;
+         grid-template-areas: "c1 c2 c3 c4";
+         background-color: $alabaster;
+         }
+      
 
     p{
         text-align: center;

@@ -2,7 +2,7 @@
     Buttons
 ============= */
 button{
-    background-color: $kobicha;
+    background-color: $camel;
     color: $timberwolf;
     padding: 15px 32px;
     text-align: center;
@@ -11,4 +11,5 @@ button{
     font-size: 20px;
     max-height: 118px;
     max-width: 235px;
+    border-radius: 10px;
 }
