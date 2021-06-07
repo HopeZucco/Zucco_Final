@@ -1010,6 +1010,6 @@ footer > div #n2 input {
 }
 #email .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1);
-  grid-template-areas: "n1 n2 n3";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "n1 n2 n3 n4";
 }
