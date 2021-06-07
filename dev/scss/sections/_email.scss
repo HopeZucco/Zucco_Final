@@ -35,5 +35,13 @@
             gap: 15px;
         }
     }
+    @include sm{
+        .grid {
+            display: grid;
+            align-content: center;
+            jus
+            gap: 15px;
+        }
+    }
            
 }

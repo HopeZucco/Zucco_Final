@@ -17,37 +17,71 @@
     //     max-width: 1259px;
     //     grid-template-areas: "n1 n2 n3";
     // }  
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        max-width: 1259px;
-        margin: auto;
-        grid-gap: 30px;
-    }
-    .span-col-2{grid-column: span 2 / auto;}
+    // .grid {
+    //     display: grid;
+    //     grid-template-columns: repeat(3, 1fr);
+    //     max-width: 1200px;
+    //     margin: auto;
+    //     grid-gap: 16px;
+    // }
+    // .span-col-2{grid-column: span 2 / auto;}
     
-    .span-row-2{grid-row: span 2 / auto;}
+    // .span-row-2{grid-row: span 2 / auto;}
+
     @include xl{
         grid-template-columns: auto 1200px auto;
     }
     >div{
-        grid-area: footer;
+        grid-area: aboutus;
+
+        @include sm{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "n1"
+            "n2"
+            "n3";
+            gap: 16px;
+
+            #n4{
+                display: none;
+            }
+        }
 
         @include md{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            grid-template-areas: "n1 n2";
             gap: 16px;
+
+            #n4{
+                display: none;
+            }
+        }
         }
 
         @include lg{
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-areas: "n1 n2";
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                max-width: 1200px;
+                margin: auto;
+                grid-gap: 16px;
+            }
+            .span-col-2{grid-column: span 2 / auto;}
+            
+            .span-row-2{grid-row: span 2 / auto;}
         }
 
         @include xl{
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-areas: "n1 n2";
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                max-width: 1200px;
+                margin: auto;
+                grid-gap: 16px;
+            }
+            .span-col-2{grid-column: span 2 / auto;}
+            
+            .span-row-2{grid-row: span 2 / auto;}
+        
         }
     }
-}
