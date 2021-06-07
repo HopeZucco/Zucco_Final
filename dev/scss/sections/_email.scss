@@ -11,8 +11,8 @@
            }
            .grid {
             display: grid;
-            grid-template-columns:repeat(4,1fr);
-            grid-template-areas: "n1 n2 n3 n4";
+            grid-template-columns:repeat(5,1fr);
+            grid-template-areas: "n1 n2 n3 n4 n5";
          }
            
 }
