@@ -996,9 +996,43 @@ footer > div #n2 input {
 #aboutus .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 73px;
   max-width: 1259px;
-  grid-template-areas: "n1 n2 n3";
+  margin: auto;
+  grid-gap: 30px;
+}
+#aboutus .span-col-2 {
+  grid-column: span 2/auto;
+}
+#aboutus .span-row-2 {
+  grid-row: span 2/auto;
+}
+@media (min-width: 1200px) {
+  #aboutus {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#aboutus > div {
+  grid-area: footer;
+}
+@media (min-width: 768px) {
+  #aboutus > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2";
+    gap: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #aboutus > div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2";
+  }
+}
+@media (min-width: 1200px) {
+  #aboutus > div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2";
+  }
 }
 
 #email {
@@ -1016,9 +1050,19 @@ footer > div #n2 input {
     gap: 15px;
   }
 }
-#email .grid {
-  display: grid;
-  grid: flex;
-  align-content: flex-end;
-  gap: 15px;
+@media (min-width: 1024px) {
+  #email .grid {
+    display: grid;
+    grid: flex;
+    align-content: flex-end;
+    gap: 15px;
+  }
+}
+@media (min-width: 768px) {
+  #email .grid {
+    display: grid;
+    grid: flex;
+    align-content: flex-end;
+    gap: 15px;
+  }
 }

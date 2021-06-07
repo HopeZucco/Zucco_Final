@@ -20,12 +20,34 @@
     .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        // grid-template-areas: "n1 n2 n2"
-        // "n1 n3 n4";
+        max-width: 1259px;
+        margin: auto;
         grid-gap: 30px;
     }
     .span-col-2{grid-column: span 2 / auto;}
     
     .span-row-2{grid-row: span 2 / auto;}
-    
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+    >div{
+        grid-area: footer;
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "n1 n2";
+            gap: 16px;
+        }
+
+        @include lg{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "n1 n2";
+        }
+
+        @include xl{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "n1 n2";
+        }
+    }
 }
