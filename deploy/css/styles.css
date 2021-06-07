@@ -1008,8 +1008,17 @@ footer > div #n2 input {
   font-family: "Raleway", sans-serif !important;
   color: #6F3F29;
 }
+@media (min-width: 1200px) {
+  #email .grid {
+    display: grid;
+    grid: flex;
+    align-content: flex-end;
+    gap: 15px;
+  }
+}
 #email .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: "n1 n2 n3 n4 n5";
+  grid: flex;
+  align-content: flex-end;
+  gap: 15px;
 }

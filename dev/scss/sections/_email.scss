@@ -9,10 +9,31 @@
                 font-family: 'Raleway', sans-serif !important;
                 color: $kobicha;
            }
-           .grid {
+    @include xl{
+        .grid {
             display: grid;
-            grid-template-columns:repeat(5,1fr);
-            grid-template-areas: "n1 n2 n3 n4 n5";
+            grid: flex;
+            align-content: flex-end;
+            gap: 15px;
+            // grid-template-columns:repeat(5,1fr);
+            // grid-template-areas: "n1 n2 n3 n4 n5";
          }
+    }
+    @include lg{
+        .grid {
+            display: grid;
+            grid: flex;
+            align-content: flex-end;
+            gap: 15px;
+        }
+    }
+    @include md{
+        .grid {
+            display: grid;
+            grid: flex;
+            align-content: flex-end;
+            gap: 15px;
+        }
+    }
            
 }

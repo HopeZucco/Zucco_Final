@@ -10,11 +10,22 @@
         text-justify: inter-word;
         color: $kobicha;
     }
-    .grid{
+    // .grid{
+    //     display: grid;
+    //     grid-template-columns: repeat(3, 1fr);
+    //     grid-gap: 73px;
+    //     max-width: 1259px;
+    //     grid-template-areas: "n1 n2 n3";
+    // }  
+    .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 73px;
-        max-width: 1259px;
-        grid-template-areas: "n1 n2 n3";
-    }  
+        // grid-template-areas: "n1 n2 n2"
+        // "n1 n3 n4";
+        grid-gap: 30px;
+    }
+    .span-col-2{grid-column: span 2 / auto;}
+    
+    .span-row-2{grid-row: span 2 / auto;}
+    
 }
