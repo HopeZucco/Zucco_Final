@@ -1,12 +1,18 @@
 #email{
     background-color: $alabaster;
-        .grid {
-           display: grid;
-           grid-template-columns:(1,1);
-           grid-template-areas: ". email .";
-           }
+        // .grid {
+        //    display: grid;
+        //    grid-template-columns:(1,1);
+        //    grid-template-areas: ". email .";
+        // }
            h4{
                 font-family: 'Raleway', sans-serif !important;
                 color: $kobicha;
            }
+           .grid {
+            display: grid;
+            grid-template-columns:repeat(3,1);
+            grid-template-areas: "n1 n2 n3";
+         }
+           
 }

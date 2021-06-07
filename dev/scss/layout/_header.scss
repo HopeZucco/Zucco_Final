@@ -16,7 +16,7 @@
         #burger_container {
             grid-area: burger;
             font-size: rem-calc(60);
-            color: $black;
+            color: $alabaster;
             margin-bottom: 10px;
             
 
@@ -40,14 +40,14 @@
                     padding: 9px 0px;
                     a:link,
                     a:visited {
-                        color: $black;
+                        color: $alabaster;
                         padding: 0px 0px;
                         text-decoration: none;
                         transition: 0.25s;
                         font-family: 'Raleway', sans-serif;
         
                         @include lg {
-                            color: $black;
+                            color: $alabaster;
                         }
         
                         &:hover,
@@ -60,7 +60,7 @@
 
             @include md {
                 display: block !important;
-                color: $black;
+                color: $alabaster;
                 padding: 20px;
                 font-family: 'Raleway', sans-serif;
                 

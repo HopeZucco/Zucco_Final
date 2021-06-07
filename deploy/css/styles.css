@@ -485,7 +485,7 @@ textarea {
 #header #navigation #burger_container {
   grid-area: burger;
   font-size: 3.75rem;
-  color: #000;
+  color: #ECE7E5;
   margin-bottom: 10px;
 }
 @media (min-width: 768px) {
@@ -508,7 +508,7 @@ textarea {
 }
 #header #navigation #nav_container ul li a:link,
 #header #navigation #nav_container ul li a:visited {
-  color: #000;
+  color: #ECE7E5;
   padding: 0px 0px;
   text-decoration: none;
   transition: 0.25s;
@@ -517,7 +517,7 @@ textarea {
 @media (min-width: 1024px) {
   #header #navigation #nav_container ul li a:link,
 #header #navigation #nav_container ul li a:visited {
-    color: #000;
+    color: #ECE7E5;
   }
 }
 #header #navigation #nav_container ul li a:link:hover, #header #navigation #nav_container ul li a:link:active,
@@ -528,7 +528,7 @@ textarea {
 @media (min-width: 768px) {
   #header #navigation #nav_container {
     display: block !important;
-    color: #000;
+    color: #ECE7E5;
     padding: 20px;
     font-family: "Raleway", sans-serif;
   }
@@ -571,6 +571,12 @@ footer > div {
   }
 }
 @media (min-width: 1024px) {
+  footer > div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2";
+  }
+}
+@media (min-width: 1200px) {
   footer > div {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "n1 n2";
@@ -786,18 +792,53 @@ footer > div #n2 input {
 #coffeeware h1 {
   color: #6F3F29;
 }
-#coffeeware .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 67;
-  max-width: 1225px;
-  margin: auto;
-  grid-template-areas: "n1 n2";
+#coffeeware h1 {
+  color: #6F3F29;
 }
 #coffeeware p {
+  color: #6F3F29;
   text-align: justify;
   text-justify: inter-word;
-  color: #6F3F29;
+}
+@media (min-width: 1200px) {
+  #coffeeware {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#coffeeware > div {
+  grid-area: intro;
+}
+@media (min-width: 576px) {
+  #coffeeware > div {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  #coffeeware > div {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    margin: auto;
+  }
+}
+@media (min-width: 1024px) {
+  #coffeeware > div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2";
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
+  #coffeeware > div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "n1 n2";
+    margin: auto;
+  }
 }
 #coffeeware .grid {
   display: grid;
@@ -963,12 +1004,12 @@ footer > div #n2 input {
 #email {
   background-color: #ECE7E5;
 }
-#email .grid {
-  display: grid;
-  grid-template-columns: 1, 1;
-  grid-template-areas: ". email .";
-}
 #email h4 {
   font-family: "Raleway", sans-serif !important;
   color: #6F3F29;
+}
+#email .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1);
+  grid-template-areas: "n1 n2 n3";
 }

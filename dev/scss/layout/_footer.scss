@@ -25,6 +25,11 @@ footer{
             grid-template-areas: "n1 n2";
         }
 
+        @include xl{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "n1 n2";
+        }
+
         #n1{
             @include md{
                 grid-area: n1;
