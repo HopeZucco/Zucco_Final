@@ -1139,7 +1139,8 @@ footer > div {
     display: grid;
     grid: flex;
     align-content: flex-end;
-    gap: 15px;
+    gap: 40px;
+    margin: 16px;
   }
 }
 @media (min-width: 1024px) {
@@ -1147,7 +1148,8 @@ footer > div {
     display: grid;
     grid: flex;
     align-content: flex-end;
-    gap: 15px;
+    gap: 30px;
+    margin: 16px;
   }
 }
 @media (min-width: 768px) {
@@ -1156,6 +1158,7 @@ footer > div {
     grid: flex;
     align-content: flex-end;
     gap: 15px;
+    margin: 16px;
   }
 }
 @media (min-width: 376px) {
@@ -1164,5 +1167,6 @@ footer > div {
     grid: flex;
     align-content: flex-end;
     gap: 16px;
+    margin: 16px;
   }
 }

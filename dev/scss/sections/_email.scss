@@ -1,10 +1,6 @@
 #email{
     background-color: $alabaster;
-        // .grid {
-        //    display: grid;
-        //    grid-template-columns:(1,1);
-        //    grid-template-areas: ". email .";
-        // }
+
            h4{
                 font-family: 'Raleway', sans-serif !important;
                 color: $kobicha;
@@ -14,9 +10,8 @@
             display: grid;
             grid: flex;
             align-content: flex-end;
-            gap: 15px;
-            // grid-template-columns:repeat(5,1fr);
-            // grid-template-areas: "n1 n2 n3 n4 n5";
+            gap: 40px;
+            margin:16px;
          }
     }
     @include lg{
@@ -24,7 +19,8 @@
             display: grid;
             grid: flex;
             align-content: flex-end;
-            gap: 15px;
+            gap: 30px;
+            margin:16px;
         }
     }
     @include md{
@@ -33,6 +29,7 @@
             grid: flex;
             align-content: flex-end;
             gap: 15px;
+            margin:16px;
         }
     }
     @include sm{
@@ -40,12 +37,8 @@
             display: grid;
             grid: flex;
             align-content: flex-end;
-            // grid-template-columns: repeat(1, 1fr);
-            // grid-template-areas: "n1"
-            // "n2"
-            // "n3"
-            // "n4";
             gap: 16px;
+            margin:16px;
         }
     }
            
