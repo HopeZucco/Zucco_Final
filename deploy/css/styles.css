@@ -659,69 +659,65 @@ footer > div #n2 input {
 }
 
 /* =============
-    Coffees
+    Coffees Intro
 ============= */
-#coffee h1 {
-  color: #6F3F29;
+#coffeeintro {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". intro ." ". intro .";
+  margin: 15px;
 }
-#coffee p {
+#coffeeintro h1 {
   color: #6F3F29;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: center;
+  margin: 15px;
+}
+#coffeeintro p {
+  color: #6F3F29;
 }
 @media (min-width: 1200px) {
-  #coffee {
+  #coffeeintro {
     grid-template-columns: auto 1200px auto;
   }
 }
-#coffee > div {
+#coffeeintro .span-col-3 {
+  grid-column: span 3/auto;
+}
+#coffeeintro > div {
   grid-area: intro;
+  background-color: #ECE7E5;
+}
+#coffeeintro > div #intro {
+  background-color: #fff;
 }
 @media (min-width: 576px) {
-  #coffee > div {
+  #coffeeintro > div {
     display: grid;
-    justify-content: center;
-    text-align: center;
-    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "intro" "n1";
+    gap: 30px;
     margin: auto;
+  }
+  #coffeeintro > div #travelmug {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 @media (min-width: 768px) {
-  #coffee > div {
+  #coffeeintro > div {
     display: grid;
-    justify-content: center;
-    text-align: center;
-    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: ". intro ." "n1 n2 n3";
+    gap: 30px;
     margin: auto;
   }
 }
 @media (min-width: 1024px) {
-  #coffee > div {
+  #coffeeintro > div {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "n1 n2 n3";
+    grid-template-areas: ". intro ." "n1 n2 n3";
     margin: auto;
   }
-}
-@media (min-width: 1200px) {
-  #coffee > div {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "n1 n2 n3";
-    margin: auto;
-  }
-}
-#coffee .grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 76px;
-  max-width: 1400px;
-  margin: auto;
-  grid-template-areas: "c1 c2 c3 c4";
-  background-color: #ECE7E5;
-}
-#coffee p {
-  text-align: center;
-  text-align: justify;
-  color: #6F3F29;
 }
 
 /* =============

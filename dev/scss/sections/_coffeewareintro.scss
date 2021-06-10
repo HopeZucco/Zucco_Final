@@ -1,7 +1,23 @@
 /* =============
-    Coffees
+    Coffeeware
 ============= */
-#coffee{
+#coffeeware{
+    h1{
+        color: $kobicha;
+    }
+    //  .grid{
+    //     display: grid;
+    //     grid-template-columns: repeat(2, 1fr);
+    //     grid-gap: 67;
+    //     max-width: 1225px;
+    //     margin: auto;
+    //     grid-template-areas: "n1 n2";
+    //     }
+    //  p{
+    //     text-align: justify;
+    //     text-justify: inter-word;
+    //     color: $kobicha;
+    //     }
     h1{
         color: $kobicha;
         }
@@ -33,31 +49,15 @@
                 }
         
                 @include lg{
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas: "n1 n2 n3";
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "n1 n2";
                     margin:auto;
                 }
                 @include xl{
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas: "n1 n2 n3";
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "n1 n2";
                     margin:auto;
                 }
             }
-    .grid{
-         display: grid;
-         grid-template-columns: repeat(4, 1fr);
-         grid-gap: 76px;
-         max-width: 1400px;
-         margin: auto;
-         grid-template-areas: "c1 c2 c3 c4";
-         background-color: $alabaster;
-         }
-      
-
-    p{
-        text-align: center;
-        text-align: justify;
-        color: $kobicha;
     }
-}
-   
+
