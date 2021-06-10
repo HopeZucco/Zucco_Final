@@ -4,6 +4,8 @@
 #coffeeintro{
     h1{
         color: $kobicha;
+        text-align: center;
+        margin: 15px; 
         }
     p{
         color: $kobicha;
@@ -43,13 +45,10 @@
                     margin:auto;
                 }
             }
-    h1{
-        color: $kobicha;
-        text-align: center;
-        margin: 15px;
-        
+    #shop{
+        align-content: right;
     }
-
+}
     // p{
     //     color: $kobicha;
     // }
@@ -107,5 +106,5 @@
 
     // }
 
-}
+
    
