@@ -9,6 +9,7 @@
         color: $kobicha;
         text-align: justify;
         text-justify: inter-word;
+        margin: 16px;
     }
     @include md{
         display: grid;

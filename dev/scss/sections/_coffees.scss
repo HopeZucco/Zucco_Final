@@ -6,12 +6,13 @@
     h1{
         color: $kobicha;
         text-align: center;
-        margin: 15px; 
+        margin: 16px; 
         }
     p{
         color: $kobicha;
         text-align: justify;
         text-justify: inter-word;
+        margin: 16px;
     }
             @include xl{
                 grid-template-columns: auto 1200px auto;
@@ -21,10 +22,14 @@
 
                 @include sm{
                     display: grid;
-                    justify-content: center;
+                    align-content: center;
                     text-align: center;
                     gap: 16px;
-                    margin:auto;
+                    float: center;
+                    // margin-left: 16px;
+                    // #n1{
+                    //     margin-left: 16px;
+                    // }
                 }
         
                 @include md{
@@ -32,26 +37,26 @@
                     justify-content: center;
                     text-align: center;
                     gap: 16px;
-                    margin:auto;
+                    margin:16px;
                 }
         
                 @include lg{
                     grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas: ". coffees-header ."
-                    "n1 n2 n3";
+                    grid-template-areas: "n1 n2 n3"
+                    ". . n4";
                     margin:auto;
                 }
                 @include xl{
                     grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas: ". coffees-header ."
-                    "n1 n2 n3";
+                    grid-template-areas: "n1 n2 n3"
+                    ". . n4";
                     margin:auto;
                     background-color: $white !important;
                 }
             }
-    #shop{
-        align-content: right;
-    }
+    // #shop{
+    //     align-content: right;
+    // }
 }
     // p{
     //     color: $kobicha;

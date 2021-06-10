@@ -37,13 +37,15 @@
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-template-areas: "trend"
-            "n1";
+            "n1"
+            "n2"
+            "n3";
             gap: 30px;
-            margin: auto;
+            margin: 16px;
+            align-content: center;
 
             #travelmug{
-                margin-left: 15px;
-                margin-right: 15px;
+                margin: 16px;
             }
 
         }

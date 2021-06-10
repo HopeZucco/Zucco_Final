@@ -604,7 +604,7 @@ footer > div section h2 {
 }
 @media (min-width: 768px) {
   footer > div #n2 {
-    grid-area: f2;
+    grid-area: n2;
   }
 }
 footer > div #n2 h1 {
@@ -628,8 +628,7 @@ footer > div #n2 input {
   }
   #hero p {
     max-width: 290px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 16px;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
@@ -637,6 +636,10 @@ footer > div #n2 input {
     grid-area: hero-content;
     display: grid;
     grid-template-columns: 40% auto;
+  }
+  #hero p {
+    max-width: 290px;
+    margin: 16px;
   }
 }
 @media (min-width: 768px) and (min-width: 1024px) {
@@ -664,12 +667,13 @@ footer > div #n2 input {
 #coffees h1 {
   color: #6F3F29;
   text-align: center;
-  margin: 15px;
+  margin: 16px;
 }
 #coffees p {
   color: #6F3F29;
   text-align: justify;
   text-justify: inter-word;
+  margin: 16px;
 }
 @media (min-width: 1200px) {
   #coffees {
@@ -682,10 +686,10 @@ footer > div #n2 input {
 @media (min-width: 576px) {
   #coffees > div {
     display: grid;
-    justify-content: center;
+    align-content: center;
     text-align: center;
     gap: 16px;
-    margin: auto;
+    float: center;
   }
 }
 @media (min-width: 768px) {
@@ -694,26 +698,23 @@ footer > div #n2 input {
     justify-content: center;
     text-align: center;
     gap: 16px;
-    margin: auto;
+    margin: 16px;
   }
 }
 @media (min-width: 1024px) {
   #coffees > div {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: ". coffees-header ." "n1 n2 n3";
+    grid-template-areas: "n1 n2 n3" ". . n4";
     margin: auto;
   }
 }
 @media (min-width: 1200px) {
   #coffees > div {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: ". coffees-header ." "n1 n2 n3";
+    grid-template-areas: "n1 n2 n3" ". . n4";
     margin: auto;
     background-color: #fff !important;
   }
-}
-#coffees #shop {
-  align-content: right;
 }
 
 /* =============
@@ -770,13 +771,13 @@ footer > div #n2 input {
   #trending > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "trend" "n1";
+    grid-template-areas: "trend" "n1" "n2" "n3";
     gap: 30px;
-    margin: auto;
+    margin: 16px;
+    align-content: center;
   }
   #trending > div #travelmug {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 16px;
   }
 }
 @media (min-width: 768px) {
@@ -808,6 +809,7 @@ footer > div #n2 input {
   color: #6F3F29;
   text-align: justify;
   text-justify: inter-word;
+  margin: 16px;
 }
 @media (min-width: 1200px) {
   #coffeeware {
@@ -880,6 +882,7 @@ footer > div #n2 input {
   color: #6F3F29;
   text-align: justify;
   text-justify: inter-word;
+  margin: 16px;
 }
 @media (min-width: 768px) {
   #coffee101 {
@@ -1009,6 +1012,7 @@ footer > div #n2 input {
   text-align: justify;
   text-justify: inter-word;
   color: #6F3F29;
+  margin: 16px;
 }
 @media (min-width: 1200px) {
   #aboutus {
@@ -1104,8 +1108,8 @@ footer > div #n2 input {
 @media (min-width: 576px) {
   #email .grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "n1" "n2" "n3" "n4";
+    grid: flex;
+    align-content: flex-end;
     gap: 16px;
   }
 }
