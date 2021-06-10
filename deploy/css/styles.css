@@ -773,7 +773,8 @@ footer > div #n2 input {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "trend" "n1" "n2" "n3";
     gap: 30px;
-    margin: auto;
+    display: block;
+    margin: 0 auto;
   }
 }
 @media (min-width: 768px) {
@@ -974,7 +975,8 @@ footer > div #n2 input {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "intro" "n1";
     gap: 30px;
-    margin: auto;
+    display: block;
+    margin: 0 auto;
   }
   #coffeeclub > div img {
     align-content: center;
