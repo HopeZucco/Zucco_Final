@@ -25,7 +25,9 @@
                     align-content: center;
                     text-align: center;
                     gap: 16px;
-                    float: center;
+                    // float: center;
+                    display: block;
+                    margin: 0 auto;
                     // margin-left: 16px;
                     // #n1{
                     //     margin-left: 16px;
@@ -54,66 +56,7 @@
                     background-color: $white !important;
                 }
             }
-    // #shop{
-    //     align-content: right;
-    // }
-}
-    // p{
-    //     color: $kobicha;
-    // }
-
-    // display: grid;
-    // grid-template-columns: 16px auto 16px;
-    // grid-template-areas: ". intro ."
-    // ". intro .";
-    // margin: 15px;
-
-    // @include xl{
-    //     grid-template-columns: auto 1200px auto;
-    // }
-
-    // .span-col-3{grid-column: span 3 / auto;}
-    
-    // >div{
-    //     grid-area: intro;
-    //     background-color: $alabaster;
-
-    //     #intro{
-    //         background-color: $white;
-    //     }
-
-    //     @include sm{
-    //         display: grid;
-    //         grid-template-columns: repeat(1, 1fr);
-    //         grid-template-areas: "intro"
-    //         "n1";
-    //         gap: 30px;
-    //         margin: auto;
-
-    //         #travelmug{
-    //             margin-left: 15px;
-    //             margin-right: 15px;
-    //         }
-
-    //     }
-
-    //     @include md{
-    //         display: grid;
-    //         grid-template-columns: repeat(3, 1fr);
-    //         grid-template-areas: ". intro ."
-    //         "n1 n2 n3";
-    //         gap: 30px;
-    //         margin: auto;
-    //     }
-
-    //     @include lg{
-    //         grid-template-columns: repeat(3, 1fr);
-    //         grid-template-areas: ". intro ."
-    //         "n1 n2 n3";
-    //         margin: auto;
-    //     }
-
-    // }
+        }
 
 
    

@@ -32,14 +32,15 @@
         #trend{
             background-color: $white;
         }
+        
 
         @include sm{
                 display: grid;
-                grid-template-columns: repeat(1, 1fr);
-                grid-template-areas: "trend"
-                "n1"
-                "n2"
-                "n3";
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: ". trend ."
+                ". n1 ."
+                ". n2 ."
+                ". n3 .";
                 gap: 30px;
                 display: block;
                 margin: 0 auto;
@@ -55,6 +56,13 @@
         }
 
         @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: ". trend ."
+            "n1 n2 n3";
+            margin: auto;
+        }
+
+        @include xl{
             grid-template-columns: repeat(3, 1fr);
             grid-template-areas: ". trend ."
             "n1 n2 n3";

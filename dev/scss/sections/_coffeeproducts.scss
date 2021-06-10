@@ -3,18 +3,46 @@
 ============= */
 
 #coffee-products{
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 76px;
-        max-width: 1400px;
-        margin: auto;
-        grid-template-areas: "f1 f2 f3 f4";
-        background-color: $alabaster;
-    }
     p{
         text-align: center;
-        text-align: justify;
         color: $kobicha;
+    }
+    background-color: $alabaster;
+    
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+    >div{
+        grid-area: coffee-products;
+
+        @include sm{
+            display: grid;
+            justify-content: center;
+            text-align: center;
+            gap: 16px;
+            display: block;
+            margin-left: 20px;
+        }
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "f1 f2" 
+            "f3 f4";
+            margin:auto;
+        }
+
+        @include lg{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas: "f1 f2 f3 f4";
+            margin:auto;
+        }
+        @include xl{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas: "f1 f2 f3 f4";
+            margin:auto;
+        }
     }
 }
