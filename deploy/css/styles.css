@@ -773,11 +773,7 @@ footer > div #n2 input {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "trend" "n1" "n2" "n3";
     gap: 30px;
-    margin: 16px;
-    align-content: center;
-  }
-  #trending > div #travelmug {
-    margin: 16px;
+    margin: auto;
   }
 }
 @media (min-width: 768px) {
