@@ -2,6 +2,7 @@
     Coffees Intro
 ============= */
 #coffeeintro{
+
     h1{
         color: $kobicha;
         text-align: center;
@@ -36,13 +37,16 @@
         
                 @include lg{
                     grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas: "n1 n2 n3";
+                    grid-template-areas: ". coffees-header ."
+                    "n1 n2 n3";
                     margin:auto;
                 }
                 @include xl{
                     grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas: "n1 n2 n3";
+                    grid-template-areas: ". coffees-header ."
+                    "n1 n2 n3";
                     margin:auto;
+                    background-color: $white !important;
                 }
             }
     #shop{

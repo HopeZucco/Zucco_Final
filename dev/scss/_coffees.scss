@@ -1,6 +1,7 @@
 /* =============
     Coffees
 ============= */
+
 #coffee{
     .grid{
         display: grid;
@@ -8,15 +9,10 @@
         grid-gap: 76px;
         max-width: 1400px;
         margin: auto;
-        grid-template-areas: "c1 c2 c3 c4";
+        grid-template-areas: "f1 f2 f3 f4";
         background-color: $alabaster;
     }
     p{
-        text-align: center;
-        text-align: justify;
-        color: $kobicha;
-    }
-    h1{
         text-align: center;
         text-align: justify;
         color: $kobicha;
