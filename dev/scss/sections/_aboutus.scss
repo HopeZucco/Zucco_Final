@@ -47,6 +47,9 @@
         @include md{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "n1"
+            "n2"
+            "n3";
             gap: 16px;
         }
         }

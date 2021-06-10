@@ -569,20 +569,20 @@ footer > div {
   footer > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "n1 n2";
+    grid-template-areas: "n1 n2" ". n3";
     gap: 16px;
   }
 }
 @media (min-width: 1024px) {
   footer > div {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "n1 n2";
+    grid-template-areas: "n1 n2" ". n3";
   }
 }
 @media (min-width: 1200px) {
   footer > div {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "n1 n2";
+    grid-template-areas: "n1 n2" ". n3";
   }
 }
 @media (min-width: 768px) {
@@ -745,7 +745,6 @@ footer > div #n2 input {
     justify-content: center;
     text-align: center;
     gap: 16px;
-    display: block;
     margin-left: 20px;
   }
 }
@@ -1031,6 +1030,8 @@ footer > div #n2 input {
 }
 #coffeeclub p {
   color: #6F3F29;
+  text-align: justify;
+  text-justify: inter-word;
 }
 @media (min-width: 1200px) {
   #coffeeclub {
@@ -1109,6 +1110,7 @@ footer > div #n2 input {
   #aboutus > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "n1" "n2" "n3";
     gap: 16px;
   }
 }

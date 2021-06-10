@@ -11,59 +11,61 @@
 
     p{
         color: $kobicha;
+        text-align: justify;
+        text-justify: inter-word;
     }
+
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". intro ."
+    ". coffeeclub .";
+    margin: 15px;
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    .span-col-3{grid-column: span 3 / auto;}
     
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". intro ."
-        ". coffeeclub .";
-        margin: 15px;
-    
-        @include xl{
-            grid-template-columns: auto 1200px auto;
-        }
-    
-        .span-col-3{grid-column: span 3 / auto;}
+    >div{
+        grid-area: coffeeclub;
         
-        >div{
-            grid-area: coffeeclub;
-    
-            @include sm{
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas: ". intro ."
-                    ". n1 ."
-                    ". n2 ."
-                    ". n3 .";
-                    gap: 30px;
-                    display: block;
-                    margin: 0 auto;
-            }
-    
-            @include md{
+
+        @include sm{
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-areas: ". intro ."
-                "n1 n2 n3";
+                ". n1 ."
+                ". n2 ."
+                ". n3 .";
                 gap: 30px;
-                margin: auto;
-            }
-    
-            @include lg{
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-areas: ". intro ."
-                "n1 n2 n3";
-                margin: auto;
-            }
-    
-            @include xl{
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-areas: ". intro ."
-                "n1 n2 n3";
-                margin: auto;
-            }
-    
+                display: block;
+                margin: 0 auto;
+        }
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: ". intro ."
+            "n1 n2 n3";
+            gap: 30px;
+            margin: auto;
+        }
+
+        @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: ". intro ."
+            "n1 n2 n3";
+            margin: auto;
+        }
+
+        @include xl{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: ". intro ."
+            "n1 n2 n3";
+            margin: auto;
         }
 
     }
-    
+
+}
