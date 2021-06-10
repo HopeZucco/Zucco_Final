@@ -3,7 +3,10 @@
 ============= */
 footer{
 
-    h1{
+    h2{
+        color: $timberwolf;
+    }
+    h3{
         color: $timberwolf;
     }
     background-color: $palesilverdark;
@@ -35,48 +38,6 @@ footer{
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: "n1 n2"
             ". n3";
-        }
-
-        #n1{
-            @include md{
-                grid-area: n1;
-            }
-            h1{
-                color: $timberwolf;
-            }
-
-           section{
-               h2{
-                color: $timberwolf;
-               }
-               address{
-                color: $timberwolf;
-               }
-                } 
-               
-           }
-
-           section{
-               h2{
-                color: $timberwolf;
-               }
-           }
-           section{
-            h2{
-             color: $timberwolf;
-            }
-        }
-
-        #n2{
-            @include md{
-                grid-area: n2;
-            }
-            h1{
-                color: $timberwolf;
-            }
-            input{
-                color: $timberwolf ;
-            }
         }
     }
 }

@@ -32,7 +32,7 @@
         
 
         @include sm{
-                display: grid;
+                display:grid;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-areas: ". intro ."
                 ". n1 ."
@@ -40,11 +40,12 @@
                 ". n3 .";
                 gap: 30px;
                 display: block;
+                align-content: center;
                 margin: 0 auto;
         }
 
         @include md{
-            display: grid;
+            display:grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-areas: ". intro ."
             "n1 n2 n3";
@@ -53,6 +54,7 @@
         }
 
         @include lg{
+            display:grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-areas: ". intro ."
             "n1 n2 n3";
@@ -60,6 +62,7 @@
         }
 
         @include xl{
+            display:grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-areas: ". intro ."
             "n1 n2 n3";

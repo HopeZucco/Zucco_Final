@@ -496,7 +496,7 @@ textarea {
 #header #navigation #nav_container {
   grid-area: nav;
   display: none;
-  margin-top: 60px;
+  margin-top: 100px;
   padding: 20px;
   margin-bottom: 10px;
 }
@@ -539,7 +539,12 @@ textarea {
 }
 #header h1 {
   color: #ECE7E5;
-  margin: 30px;
+  margin: 40px;
+}
+@media (min-width: 376px) {
+  #header h1 {
+    text-align: center;
+  }
 }
 #header > div {
   grid-area: header;
@@ -554,7 +559,10 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
 }
-footer h1 {
+footer h2 {
+  color: #D8D8D8;
+}
+footer h3 {
   color: #D8D8D8;
 }
 @media (min-width: 1200px) {
@@ -584,37 +592,6 @@ footer > div {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "n1 n2" ". n3";
   }
-}
-@media (min-width: 768px) {
-  footer > div #n1 {
-    grid-area: n1;
-  }
-}
-footer > div #n1 h1 {
-  color: #D8D8D8;
-}
-footer > div #n1 section h2 {
-  color: #D8D8D8;
-}
-footer > div #n1 section address {
-  color: #D8D8D8;
-}
-footer > div section h2 {
-  color: #D8D8D8;
-}
-footer > div section h2 {
-  color: #D8D8D8;
-}
-@media (min-width: 768px) {
-  footer > div #n2 {
-    grid-area: n2;
-  }
-}
-footer > div #n2 h1 {
-  color: #D8D8D8;
-}
-footer > div #n2 input {
-  color: #D8D8D8;
 }
 
 /* =============
@@ -1051,6 +1028,7 @@ footer > div #n2 input {
     grid-template-areas: ". intro ." ". n1 ." ". n2 ." ". n3 .";
     gap: 30px;
     display: block;
+    align-content: center;
     margin: 0 auto;
   }
 }
@@ -1065,6 +1043,7 @@ footer > div #n2 input {
 }
 @media (min-width: 1024px) {
   #coffeeclub > div {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: ". intro ." "n1 n2 n3";
     margin: auto;
@@ -1072,6 +1051,7 @@ footer > div #n2 input {
 }
 @media (min-width: 1200px) {
   #coffeeclub > div {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: ". intro ." "n1 n2 n3";
     margin: auto;
@@ -1083,6 +1063,8 @@ footer > div #n2 input {
 ============= */
 #aboutus h1 {
   color: #6F3F29;
+  text-align: center;
+  margin: auto;
 }
 #aboutus p {
   text-align: justify;
@@ -1102,7 +1084,7 @@ footer > div #n2 input {
   #aboutus > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "n1" "n2" "n3";
+    grid-template-areas: "n1" "n2" "n3" "n4";
     gap: 16px;
   }
 }
@@ -1110,7 +1092,7 @@ footer > div #n2 input {
   #aboutus > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "n1" "n2" "n3";
+    grid-template-areas: "n1" "n2" "n3" "n4";
     gap: 16px;
   }
 }
