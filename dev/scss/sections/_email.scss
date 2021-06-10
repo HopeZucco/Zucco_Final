@@ -36,11 +36,14 @@
         }
     }
     @include sm{
-        .grid {
+        .grid{
             display: grid;
-            align-content: center;
-            jus
-            gap: 15px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "n1"
+            "n2"
+            "n3"
+            "n4";
+            gap: 16px;
         }
     }
            
