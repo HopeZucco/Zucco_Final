@@ -410,20 +410,20 @@
       "oAP" : "\/dev\/content\/coffeeclub.html",
       "oF" : 0
     },
+    "\/dev\/content\/coffeeproducts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/coffeeproducts.html",
+      "oF" : 0
+    },
     "\/dev\/content\/coffees.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/coffees.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/coffeesintro.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/coffeesintro.html",
       "oF" : 0
     },
     "\/dev\/content\/coffeeware.kit" : {
@@ -434,12 +434,12 @@
       "oAP" : "\/dev\/content\/coffeeware.html",
       "oF" : 0
     },
-    "\/dev\/content\/coffeewareintro.kit" : {
+    "\/dev\/content\/coffeewareproducts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/coffeewareintro.html",
+      "oAP" : "\/dev\/content\/coffeewareproducts.html",
       "oF" : 0
     },
     "\/dev\/content\/email.kit" : {
@@ -699,7 +699,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_coffeesintro.scss" : {
+    "\/dev\/scss\/sections\/_coffeeproducts.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -707,13 +707,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_coffeesintro.css",
+      "oAP" : "\/dev\/scss\/sections\/_coffeeproducts.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_coffeewareintro.scss" : {
+    "\/dev\/scss\/sections\/_coffees.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -721,7 +721,35 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_coffeewareintro.css",
+      "oAP" : "\/dev\/scss\/sections\/_coffees.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_coffeeware.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_coffeeware.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_coffeewareproducts.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_coffeewareproducts.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

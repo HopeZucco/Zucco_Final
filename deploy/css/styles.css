@@ -659,65 +659,79 @@ footer > div #n2 input {
 }
 
 /* =============
-    Coffees Intro
+    Coffees
 ============= */
-#coffeeintro {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". intro ." ". intro .";
-  margin: 15px;
-}
-#coffeeintro h1 {
+#coffees h1 {
   color: #6F3F29;
   text-align: center;
   margin: 15px;
 }
-#coffeeintro p {
+#coffees p {
   color: #6F3F29;
+  text-align: justify;
+  text-justify: inter-word;
 }
 @media (min-width: 1200px) {
-  #coffeeintro {
+  #coffees {
     grid-template-columns: auto 1200px auto;
   }
 }
-#coffeeintro .span-col-3 {
-  grid-column: span 3/auto;
-}
-#coffeeintro > div {
+#coffees > div {
   grid-area: intro;
-  background-color: #ECE7E5;
-}
-#coffeeintro > div #intro {
-  background-color: #fff;
 }
 @media (min-width: 576px) {
-  #coffeeintro > div {
+  #coffees > div {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "intro" "n1";
-    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
     margin: auto;
-  }
-  #coffeeintro > div #travelmug {
-    margin-left: 15px;
-    margin-right: 15px;
   }
 }
 @media (min-width: 768px) {
-  #coffeeintro > div {
+  #coffees > div {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: ". intro ." "n1 n2 n3";
-    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
     margin: auto;
   }
 }
 @media (min-width: 1024px) {
-  #coffeeintro > div {
+  #coffees > div {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: ". intro ." "n1 n2 n3";
+    grid-template-areas: ". coffees-header ." "n1 n2 n3";
     margin: auto;
   }
+}
+@media (min-width: 1200px) {
+  #coffees > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: ". coffees-header ." "n1 n2 n3";
+    margin: auto;
+    background-color: #fff !important;
+  }
+}
+#coffees #shop {
+  align-content: right;
+}
+
+/* =============
+    Coffee Products
+============= */
+#coffee-products .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 76px;
+  max-width: 1400px;
+  margin: auto;
+  grid-template-areas: "f1 f2 f3 f4";
+  background-color: #ECE7E5;
+}
+#coffee-products p {
+  text-align: center;
+  text-align: justify;
+  color: #6F3F29;
 }
 
 /* =============
@@ -787,9 +801,8 @@ footer > div #n2 input {
 ============= */
 #coffeeware h1 {
   color: #6F3F29;
-}
-#coffeeware h1 {
-  color: #6F3F29;
+  text-align: center;
+  margin: 15px;
 }
 #coffeeware p {
   color: #6F3F29;
@@ -810,7 +823,7 @@ footer > div #n2 input {
     justify-content: center;
     text-align: center;
     gap: 16px;
-    margin: auto;
+    margin: 16px;
   }
 }
 @media (min-width: 768px) {
@@ -819,7 +832,7 @@ footer > div #n2 input {
     justify-content: center;
     text-align: center;
     gap: 16px;
-    margin: auto;
+    margin: 16px;
   }
 }
 @media (min-width: 1024px) {
@@ -827,6 +840,7 @@ footer > div #n2 input {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "n1 n2";
     margin: auto;
+    max-width: 1225px;
   }
 }
 @media (min-width: 1200px) {
@@ -834,9 +848,14 @@ footer > div #n2 input {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "n1 n2";
     margin: auto;
+    max-width: 1225px;
   }
 }
-#coffeeware .grid {
+
+/* =============
+    Coffeeware Products
+============= */
+#coffeeware-products .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 76px;
@@ -845,7 +864,7 @@ footer > div #n2 input {
   grid-template-areas: "f1 f2 f3 f4";
   background-color: #ECE7E5;
 }
-#coffeeware p {
+#coffeeware-products p {
   text-align: center;
   text-align: justify;
   color: #6F3F29;
@@ -859,6 +878,8 @@ footer > div #n2 input {
 }
 #coffee101 p {
   color: #6F3F29;
+  text-align: justify;
+  text-justify: inter-word;
 }
 @media (min-width: 768px) {
   #coffee101 {
